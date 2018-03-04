@@ -95,7 +95,7 @@ BO_ 642 Dashlights: 8 XXX
 
 BO_ 882 Counter: 8 XXX
  SG_ Counter : 15|4@0+ (1,0) [0|31] "" XXX
- SG_ Wheels_stop : 16|2@1+ (1,0) [0|255] "" XXX
+ SG_ Something : 16|2@1+ (1,0) [0|255] "" XXX
 
 BO_ 805 undefined: 8 XXX
 
@@ -222,16 +222,23 @@ BO_ 356 Counter_2: 8 XXX
 
 BO_ 352 Counter_1: 8 XXX
  SG_ Counter_1 : 48|4@1+ (1,0) [0|15] "" XXX
- SG_ Counter_2 : 59|4@0+ (1,0) [0|4095] "" XXX
+ SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|281474976710655] "" XXX
+ SG_ NEW_SIGNAL_3 : 23|1@0+ (1,0) [0|3] "" XXX
+ SG_ Checksum : 63|8@0+ (1,0) [0|4095] "" XXX
+ SG_ NEW_SIGNAL_2 : 22|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 392 Counter_0: 8 XXX
  SG_ Counter : 16|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 353 NEW_MSG_1: 8 XXX
  SG_ Counter_1 : 47|4@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_1 : 60|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 15|4@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_2 : 0|12@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 16|1@1+ (1,0) [0|7] "" XXX
+ SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 20|1@0+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_6 : 23|1@0+ (1,0) [0|7] "" XXX
+ SG_ Brake_Pedal : 18|1@1+ (1,0) [0|7] "" XXX
 
 BO_ 1632 NEW_MSG_7: 8 XXX
  SG_ NEW_SIGNAL_1 : 31|8@0+ (1,0) [0|255] "" XXX
@@ -281,6 +288,13 @@ BO_ 358 CruiseControl_2: 8 XXX
  SG_ No_Activate : 20|1@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 22|1@0+ (1,0) [0|3] "" XXX
  SG_ Saved_Speed : 24|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 354 NEW_MSG_18: 8 XXX
+ SG_ NEW_SIGNAL_2 : 8|1@1+ (1,0) [0|7] "" XXX
+ SG_ Counter : 48|3@1+ (1,0) [0|7] "" XXX
+ SG_ RPM : 16|16@1- (1,0) [0|255] "" XXX
+ SG_ Cruise_Activated : 9|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_3 : 39|8@0- (1,0) [0|65535] "" XXX
 
 
 
