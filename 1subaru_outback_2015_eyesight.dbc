@@ -47,11 +47,12 @@ BO_ 324 CruiseControl: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|1@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_9 : 15|1@1+ (1,0) [0|127] "" XXX
  SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_6 : 50|1@0+ (1,0) [0|3] "" XXX
  SG_ Cruise_On : 48|1@0+ (1,0) [0|3] "" XXX
- SG_ CRUISE_RES : 4|1@0+ (1,0) [0|3] "" XXX
- SG_ CRUISE_SET : 3|1@0+ (1,0) [0|3] "" XXX
- SG_ OnOff : 2|1@1+ (1,0) [0|3] "" XXX
+ SG_ OnOffButton : 2|1@1+ (1,0) [0|3] "" XXX
+ SG_ SET_BUTTON : 3|1@0+ (1,0) [0|3] "" XXX
+ SG_ RES_BUTTON : 4|1@0+ (1,0) [0|3] "" XXX
+ SG_ Cruise_Activated : 49|1@0+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_6 : 50|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 320 Throttle: 8 XXX
  SG_ Off_Throttle_2 : 56|1@1+ (1,0) [0|3] "" XXX
