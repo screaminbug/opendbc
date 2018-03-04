@@ -44,15 +44,14 @@ BO_ 884 DoorStatus: 8 XXX
  SG_ DoorHatch : 28|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 324 CruiseControl: 8 XXX
- SG_ NEW_SIGNAL_3 : 4|1@0+ (1,0) [0|15] "" XXX
- SG_ CRUISE_SET : 3|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 8|1@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_9 : 15|1@1+ (1,0) [0|127] "" XXX
  SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_6 : 50|1@0+ (1,0) [0|3] "" XXX
  SG_ Cruise_On : 48|1@0+ (1,0) [0|3] "" XXX
- SG_ OnOff : 2|1@1+ (1,0) [0|3] "" XXX
  SG_ CRUISE_RES : 4|1@0+ (1,0) [0|3] "" XXX
+ SG_ CRUISE_SET : 3|1@0+ (1,0) [0|3] "" XXX
+ SG_ OnOff : 2|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 320 Throttle: 8 XXX
  SG_ Off_Throttle_2 : 56|1@1+ (1,0) [0|3] "" XXX
@@ -69,9 +68,9 @@ BO_ 320 Throttle: 8 XXX
 BO_ 209 Brakes_Pedal: 8 XXX
  SG_ NEW_SIGNAL_2 : 31|1@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 56|8@1+ (1,0) [0|255] "" XXX
- SG_ Brake_Pedal : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 26|1@1+ (1,0) [0|3] "" XXX
  SG_ Speed : 0|16@1+ (1,0) [0|255] "KPH" XXX
+ SG_ Brake_Pedal : 23|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 2 Steering: 8 XXX
  SG_ NEW_SIGNAL_1 : 31|4@0- (1,0) [0|65535] "" XXX
@@ -268,10 +267,13 @@ BO_ 865 NEW_MSG_16: 8 XXX
 BO_ 359 NEW_MSG_17: 8 XXX
 
 BO_ 358 NEW_MSG_18: 8 XXX
- SG_ NEW_SIGNAL_4 : 16|1@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_5 : 17|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 20|1@0+ (1,0) [0|15] "" XXX
+ SG_ Counter : 39|3@0+ (1,0) [0|7] "" XXX
+ SG_ Cruise_On : 16|1@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_3 : 22|1@0+ (1,0) [0|3] "" XXX
+ SG_ Cruise_Activated : 17|1@1+ (1,0) [0|3] "" XXX
+ SG_ Car_Follow : 46|1@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_6 : 48|4@1+ (1,0) [0|15] "" XXX
 
 
 
@@ -287,5 +289,6 @@ CM_ SG_ 881 Left_Right "Missing extra larger bits";
 CM_ SG_ 881 Steering_Motor_Flat "Possibly motor voltage";
 CM_ SG_ 212 RL "KPH";
 CM_ SG_ 212 FL "";
+CM_ SG_ 358 Car_Follow "front car detected";
 VAL_ 642 Right_Signal 2 "Left" 1 "Right" ;
 CM_ "CHFFR_METRIC 2 STEER_ANGLE STEER_ANGLE 0.36 180";
