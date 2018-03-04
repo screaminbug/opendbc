@@ -53,6 +53,8 @@ BO_ 324 CruiseControl: 8 XXX
  SG_ RES_BUTTON : 4|1@0+ (1,0) [0|3] "" XXX
  SG_ Cruise_Activated : 49|1@0+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_6 : 50|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_3 : 51|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_4 : 28|5@0+ (1,0) [0|16777215] "" XXX
 
 BO_ 320 Throttle: 8 XXX
  SG_ Off_Throttle_2 : 56|1@1+ (1,0) [0|3] "" XXX
@@ -268,13 +270,17 @@ BO_ 865 NEW_MSG_16: 8 XXX
 BO_ 359 NEW_MSG_17: 8 XXX
 
 BO_ 358 CruiseControl_2: 8 XXX
- SG_ NEW_SIGNAL_2 : 20|1@0+ (1,0) [0|15] "" XXX
  SG_ Counter : 39|3@0+ (1,0) [0|7] "" XXX
- SG_ Cruise_On : 16|1@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_3 : 22|1@0+ (1,0) [0|3] "" XXX
- SG_ Cruise_Activated : 17|1@1+ (1,0) [0|3] "" XXX
  SG_ Car_Follow : 46|1@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_6 : 48|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_6 : 51|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 35|1@0+ (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_4 : 34|1@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_5 : 33|1@1+ (1,0) [0|3] "" XXX
+ SG_ Cruise_On : 16|1@1+ (1,0) [0|7] "" XXX
+ SG_ Cruise_Activated : 17|1@1+ (1,0) [0|3] "" XXX
+ SG_ No_Activate : 20|1@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_3 : 22|1@0+ (1,0) [0|3] "" XXX
+ SG_ Saved_Speed : 24|8@1+ (1,0) [0|255] "" XXX
 
 
 
