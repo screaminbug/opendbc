@@ -240,18 +240,18 @@ BO_ 392 Counter_0: 8 XXX
 BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ NEW_SIGNAL_5 : 16|1@1+ (1,0) [0|7] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_1 : 20|1@0+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_6 : 23|1@0+ (1,0) [0|7] "" XXX
  SG_ Throttle_Cruise : 0|12@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 15|4@0+ (1,0) [0|15] "" XXX
  SG_ Counter_1 : 47|4@0+ (1,0) [0|15] "" XXX
  SG_ Unknown : 18|1@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_7 : 21|1@0+ (1,0) [0|3] "" XXX
  SG_ Wheel_stop : 22|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 50|1@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_8 : 49|1@1+ (1,0) [0|3] "" XXX
- SG_ DistanceSwap : 17|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_9 : 17|1@1+ (1,0) [0|3] "" XXX
+ SG_ DistanceSwap : 21|1@0+ (1,0) [0|3] "" XXX
  SG_ CloseDistance : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 20|1@0+ (1,0) [0|7] "" XXX
 
 BO_ 1632 NEW_MSG_7: 8 XXX
  SG_ NEW_SIGNAL_1 : 31|8@0+ (1,0) [0|255] "" XXX
