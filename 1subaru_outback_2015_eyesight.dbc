@@ -280,6 +280,7 @@ BO_ 865 NEW_MSG_16: 8 XXX
  SG_ NEW_SIGNAL_2 : 12|1@1+ (1,0) [0|255] "" XXX
 
 BO_ 359 ES_NEW_MSG_17: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ Counter : 39|3@0+ (1,0) [0|7] "" XXX
