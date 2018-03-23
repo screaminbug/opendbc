@@ -80,7 +80,6 @@ BO_ 2 Steering: 8 XXX
  SG_ SteeringAngle : 7|16@0- (0.1,0) [-497|500] "degree" XXX
  SG_ NEW_SIGNAL_6 : 24|1@1+ (1,0) [0|3] "" XXX
  SG_ Counter : 25|3@1+ (1,0) [0|15] "" XXX
- SG_  : 32|1@1+ (1,0) [0|3] "" XXX
  SG_ Checksum : 32|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 642 Dashlights: 8 XXX
@@ -243,11 +242,14 @@ BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_1 : 20|1@0+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_6 : 23|1@0+ (1,0) [0|7] "" XXX
- SG_ Brake_Pedal : 18|1@1+ (1,0) [0|7] "" XXX
  SG_ Throttle_Cruise : 0|12@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 15|4@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_2 : 51|4@0+ (1,0) [0|4095] "" XXX
  SG_ Counter_1 : 47|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_4 : 17|1@1+ (1,0) [0|3] "" XXX
+ SG_ Unknown : 18|1@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_7 : 21|1@0+ (1,0) [0|3] "" XXX
+ SG_ Wheel_stop : 22|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 1632 NEW_MSG_7: 8 XXX
  SG_ NEW_SIGNAL_1 : 31|8@0+ (1,0) [0|255] "" XXX
@@ -298,6 +300,8 @@ BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ Saved_Speed : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ Cruise_Activated : 17|1@1+ (1,0) [0|3] "" XXX
  SG_ No_Activate : 20|1@0+ (1,0) [0|15] "" XXX
+ SG_ Wheel_stop : 19|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_2 : 18|3@0+ (1,0) [0|3] "" XXX
 
 BO_ 354 ES_NEW_MSG_18: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|1@1+ (1,0) [0|7] "" XXX
