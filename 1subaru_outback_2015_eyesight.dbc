@@ -288,7 +288,13 @@ BO_ 865 NEW_MSG_16: 8 XXX
  SG_ NEW_SIGNAL_2 : 12|1@1+ (1,0) [0|255] "" XXX
 
 BO_ 359 ES_LDW: 8 XXX
+ SG_ NEW_SIGNAL_3 : 31|1@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_1 : 0|1@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 52|1@0+ (1,0) [0|16777215] "" XXX
+ SG_ NEW_SIGNAL_4 : 50|1@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_5 : 49|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_6 : 48|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_7 : 28|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ Counter : 39|3@0+ (1,0) [0|7] "" XXX
