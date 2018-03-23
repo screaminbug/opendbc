@@ -291,7 +291,6 @@ BO_ 359 ES_LDW: 8 XXX
 BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ Counter : 39|3@0+ (1,0) [0|7] "" XXX
  SG_ Car_Follow : 46|1@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_6 : 51|4@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_1 : 35|1@0+ (1,0) [0|31] "" XXX
  SG_ NEW_SIGNAL_4 : 34|1@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_5 : 33|1@1+ (1,0) [0|3] "" XXX
@@ -302,6 +301,7 @@ BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ No_Activate : 20|1@0+ (1,0) [0|15] "" XXX
  SG_ Wheel_stop : 19|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 18|3@0+ (1,0) [0|3] "" XXX
+ SG_ Obstacle_Distance  : 51|4@0+ (1,0) [0|15] "" XXX
 
 BO_ 354 ES_NEW_MSG_18: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|1@1+ (1,0) [0|7] "" XXX
