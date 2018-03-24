@@ -142,13 +142,14 @@ BO_ 211 Brake_Type: 8 XXX
 
 BO_ 321 undefined: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|16@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_4 : 16|16@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 16|12@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_7 : 59|2@1+ (1,0) [0|63] "" XXX
  SG_ NEW_SIGNAL_6 : 46|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 47|1@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_5 : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 54|2@0+ (1,0) [0|255] "" XXX
  SG_ Engine_RPM : 32|12@1+ (1,0) [0|8191] "" XXX
+ SG_ NEW_SIGNAL_8 : 31|4@0+ (1,0) [0|15] "" XXX
 
 BO_ 208 undefined: 8 XXX
  SG_ NEW_SIGNAL_1 : 47|8@0+ (1,0) [0|255] "" XXX
@@ -310,11 +311,13 @@ BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ Wheel_stop : 19|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 18|3@0+ (1,0) [0|3] "" XXX
  SG_ Obstacle_Distance : 48|4@1+ (1,0) [0|15] "" XXX
+ SG_ Not_ready : 0|3@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_6 : 21|3@0+ (1,0) [0|3] "" XXX
 
-BO_ 354 ES_NEW_MSG_18: 8 XXX
+BO_ 354 ES_Transmission: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|1@1+ (1,0) [0|7] "" XXX
  SG_ Counter : 48|3@1+ (1,0) [0|7] "" XXX
- SG_ RPM : 16|16@1- (1,0) [0|255] "" XXX
+ SG_ Transmission : 16|16@1+ (1,0) [0|255] "" XXX
  SG_ Cruise_Activated : 9|1@0+ (1,0) [0|3] "" XXX
  SG_ Checksum : 39|8@0+ (1,0) [0|65535] "" XXX
 
