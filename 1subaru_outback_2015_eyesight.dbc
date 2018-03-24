@@ -230,12 +230,12 @@ BO_ 356 ES_Counter_2: 8 XXX
 
 BO_ 352 ES_CruiseBrake: 8 XXX
  SG_ Counter_1 : 48|4@1+ (1,0) [0|15] "" XXX
- SG_ Checksum : 63|8@0+ (1,0) [0|4095] "" XXX
  SG_ Cruise_Brake_On : 22|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_4 : 21|1@0+ (1,0) [0|3] "" XXX
  SG_ Brake_Light : 20|1@0+ (1,0) [0|3] "" XXX
  SG_ Cruise_Brake_Pressure : 0|16@1+ (1,0) [0|281474976710655] "" XXX
  SG_ Cruise_Activated : 23|1@0+ (1,0) [0|3] "" XXX
+ SG_ Checksum : 63|8@0+ (1,0) [0|4095] "" XXX
 
 BO_ 392 Counter_0: 8 XXX
  SG_ Counter : 16|4@1+ (1,0) [0|15] "" XXX
