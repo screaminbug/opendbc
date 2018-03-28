@@ -221,12 +221,11 @@ BO_ 346 Counter_3: 8 XXX
 
 BO_ 356 ES_Counter_2: 8 XXX
  SG_ Counter_1 : 0|4@1+ (1,0) [0|15] "" XXX
- SG_ Counter_2 : 56|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 31|16@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 15|16@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 47|16@0+ (1,0) [0|65535] "" XXX
- SG_ NEW_SIGNAL_4 : 63|4@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_5 : 7|4@0+ (1,0) [0|15] "" XXX
+ SG_ Checksum : 56|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 352 ES_CruiseBrake: 8 XXX
  SG_ Cruise_Brake_On : 22|1@0+ (1,0) [0|3] "" XXX
@@ -241,13 +240,10 @@ BO_ 392 Counter_0: 8 XXX
  SG_ Counter : 16|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 353 ES_CruiseThrottle: 8 XXX
- SG_ NEW_SIGNAL_5 : 16|1@1+ (1,0) [0|7] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_6 : 23|1@0+ (1,0) [0|7] "" XXX
  SG_ Throttle_Cruise : 0|12@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_3 : 15|4@0+ (1,0) [0|15] "" XXX
- SG_ Counter_1 : 47|4@0+ (1,0) [0|15] "" XXX
- SG_ Unknown : 18|1@1+ (1,0) [0|7] "" XXX
+ SG_ Counter_1 : 46|3@0+ (1,0) [0|15] "" XXX
  SG_ Wheel_stop : 22|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 50|1@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_8 : 49|1@1+ (1,0) [0|3] "" XXX
@@ -255,6 +251,10 @@ BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ DistanceSwap : 21|1@0+ (1,0) [0|3] "" XXX
  SG_ CloseDistance : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 20|1@0+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_3 : 15|4@0+ (1,0) [0|15] "" XXX
+ SG_ Cruise_Activated : 16|1@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_4 : 63|2@0+ (1,0) [0|3] "" XXX
+ SG_ Unknown : 18|1@1+ (1,0) [0|7] "" XXX
 
 BO_ 1632 NEW_MSG_7: 8 XXX
  SG_ NEW_SIGNAL_1 : 31|8@0+ (1,0) [0|255] "" XXX
@@ -301,20 +301,20 @@ BO_ 359 ES_LDW: 8 XXX
 
 BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ Counter : 39|3@0+ (1,0) [0|7] "" XXX
- SG_ Car_Follow : 46|1@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 35|1@0+ (1,0) [0|31] "" XXX
  SG_ NEW_SIGNAL_4 : 34|1@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_5 : 33|1@1+ (1,0) [0|3] "" XXX
  SG_ Cruise_On : 16|1@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_3 : 22|1@0+ (1,0) [0|3] "" XXX
  SG_ Saved_Speed : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ Cruise_Activated : 17|1@1+ (1,0) [0|3] "" XXX
  SG_ No_Activate : 20|1@0+ (1,0) [0|15] "" XXX
  SG_ Wheel_stop : 19|1@1+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_2 : 18|3@0+ (1,0) [0|3] "" XXX
- SG_ Obstacle_Distance : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ Not_ready : 0|3@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_6 : 21|3@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_2 : 18|1@0+ (1,0) [0|3] "" XXX
+ SG_ Car_Follow : 46|1@1+ (1,0) [0|255] "" XXX
+ SG_ Obstacle_Distance : 48|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_6 : 21|1@0+ (1,0) [0|3] "" XXX
+ SG_ Cruise_Off : 22|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 354 ES_Transmission: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|1@1+ (1,0) [0|7] "" XXX
@@ -337,7 +337,7 @@ CM_ SG_ 881 Left_Right "Missing extra larger bits";
 CM_ SG_ 881 Steering_Motor_Flat "Possibly motor voltage";
 CM_ SG_ 212 RL "KPH";
 CM_ SG_ 212 FL "";
-CM_ SG_ 358 Car_Follow "front car detected";
 CM_ SG_ 358 Cruise_Activated "is 1 when cruise is able to go";
+CM_ SG_ 358 Car_Follow "front car detected";
 VAL_ 642 Right_Signal 2 "Left" 1 "Right" ;
 CM_ "CHFFR_METRIC 2 STEER_ANGLE STEER_ANGLE 0.36 180";
