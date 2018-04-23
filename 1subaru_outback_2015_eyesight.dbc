@@ -291,14 +291,14 @@ BO_ 865 NEW_MSG_16: 8 XXX
  SG_ NEW_SIGNAL_2 : 12|1@1+ (1,0) [0|255] "" XXX
 
 BO_ 359 ES_LDW: 8 XXX
- SG_ NEW_SIGNAL_3 : 31|1@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_1 : 0|1@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_2 : 52|1@0+ (1,0) [0|16777215] "" XXX
- SG_ NEW_SIGNAL_4 : 50|1@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_6 : 48|1@1+ (1,0) [0|3] "" XXX
+ SG_ Warning : 51|1@0+ (1,0) [0|3] "" XXX
+ SG_ All_depart : 52|1@0+ (1,0) [0|3] "" XXX
+ SG_ Lane_Depart : 50|1@1+ (1,0) [0|7] "" XXX
+ SG_ 1Right_Depart : 49|1@1+ (1,0) [0|3] "" XXX
+ SG_ Right_Depart : 48|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_7 : 28|1@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_8 : 51|1@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_5 : 49|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_3 : 31|1@0+ (1,0) [0|15] "" XXX
 
 BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ Counter : 39|3@0+ (1,0) [0|7] "" XXX
@@ -338,8 +338,10 @@ CM_ SG_ 881 Left_Right "Missing extra larger bits";
 CM_ SG_ 881 Steering_Motor_Flat "Possibly motor voltage";
 CM_ SG_ 212 RL "KPH";
 CM_ SG_ 212 FL "";
-CM_ SG_ 359 NEW_SIGNAL_8 "warning after acceleration into car in front";
-CM_ SG_ 359 NEW_SIGNAL_5 "object in front alert";
+CM_ SG_ 359 Warning "warning after acceleration into car in front and left depart";
+CM_ SG_ 359 1Right_Depart "object in front alert and right depart";
+CM_ SG_ 359 NEW_SIGNAL_7 "Left and right depart";
+CM_ SG_ 359 NEW_SIGNAL_3 "Left and right depart";
 CM_ SG_ 358 Cruise_Activated "is 1 when cruise is able to go";
 CM_ SG_ 358 Car_Follow "front car detected";
 VAL_ 642 Right_Signal 2 "Left" 1 "Right" ;
