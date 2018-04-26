@@ -58,3 +58,23 @@ BO_ 65 NEW_MSG_1: 8 XXX
  SG_ NEW_SIGNAL_5 : 31|1@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_6 : 48|8@1+ (1,0) [0|63] "" XXX
  SG_ NEW_SIGNAL_7 : 59|2@0+ (1,0) [0|255] "" XXX
+
+BO_ 72 NEW_MSG_2: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_3 : 40|16@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 38|3@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 16|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 316 NEW_MSG_3: 8 XXX
+
+BO_ 326 NEW_MSG_4: 8 XXX
+ SG_ NEW_SIGNAL_1 : 16|12@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 40|2@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_5 : 7|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 315 G_Sensor: 8 XXX
+ SG_ longitudinal : 63|8@0- (1,0) [0|255] "" XXX
+ SG_ Latitudinal : 48|8@1- (1,0) [0|255] "" XXX
