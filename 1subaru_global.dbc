@@ -78,3 +78,11 @@ BO_ 326 NEW_MSG_4: 8 XXX
 BO_ 315 G_Sensor: 8 XXX
  SG_ longitudinal : 63|8@0- (1,0) [0|255] "" XXX
  SG_ Latitudinal : 48|8@1- (1,0) [0|255] "" XXX
+
+BO_ 314 NEW_MSG_5: 8 XXX
+ SG_ NEW_SIGNAL_4 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_6 : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_5 : 12|12@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_2 : 24|12@1+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_3 : 52|12@1+ (1,0) [0|32767] "" XXX
+ SG_ NEW_SIGNAL_1 : 38|14@1+ (1,0) [0|63] "" XXX
