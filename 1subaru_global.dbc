@@ -135,6 +135,8 @@ BO_ 545 ES_Distance: 8 XXX
  SG_ NEW_SIGNAL_2 : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ Close_Distance : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 16|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 546 NEW_MSG_12: 8 XXX
  SG_ NEW_SIGNAL_1 : 16|12@1+ (1,0) [0|255] "" XXX
@@ -155,9 +157,9 @@ BO_ 576 NEW_MSG_15: 8 XXX
  SG_ NEW_SIGNAL_2 : 7|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 577 NEW_MSG_16: 8 XXX
- SG_ NEW_SIGNAL_1 : 16|12@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 16|12@1+ (1,0) [0|255] "" XXX
 
 BO_ 552 NEW_MSG_17: 8 XXX
  SG_ NEW_SIGNAL_1 : 48|1@1+ (1,0) [0|3] "" XXX
