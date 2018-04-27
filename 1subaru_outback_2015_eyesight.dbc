@@ -218,6 +218,8 @@ BO_ 210 Brake_2: 8 XXX
 
 BO_ 346 Counter_3: 8 XXX
  SG_ Counter : 0|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 20|1@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_2 : 57|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 356 ES_Counter_2: 8 XXX
  SG_ Counter_1 : 0|4@1+ (1,0) [0|15] "" XXX
