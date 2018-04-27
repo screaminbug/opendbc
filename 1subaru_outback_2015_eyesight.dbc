@@ -190,7 +190,7 @@ BO_ 212 Wheel_Speed: 8 XXX
  SG_ RL : 32|16@1+ (0.05747,0) [0|255] "" XXX
  SG_ FL : 0|16@1+ (0.05747,0) [2|255] "KPH" XXX
 
-BO_ 329 NEW_MSG_13: 8 XXX
+BO_ 329 CVT_Ratio: 8 XXX
  SG_ NEW_SIGNAL_2 : 31|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_4 : 0|8@1+ (1,0) [0|255] "" XXX
