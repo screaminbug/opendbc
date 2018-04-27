@@ -166,8 +166,8 @@ BO_ 881 Steering_Torque: 8 XXX
  SG_ Steering_Motor_LeftRight : 23|8@0- (1,0) [0|255] "" XXX
 
 BO_ 336 Brake_Pressure: 8 XXX
- SG_ Brake_Pressure_Left : 0|8@1+ (1,0) [0|15] "" XXX
- SG_ Brake_Pressure_Right : 15|8@0+ (1,0) [0|255] "" XXX
+ SG_ Brake_Pressure_Right : 0|8@1+ (1,0) [0|15] "" XXX
+ SG_ Brake_Pressure_Left : 15|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 640 NEW_MSG_10: 8 XXX
  SG_ NEW_SIGNAL_2 : 24|8@1+ (1,0) [0|255] "" XXX
