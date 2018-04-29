@@ -147,10 +147,10 @@ BO_ 321 undefined: 8 XXX
  SG_ NEW_SIGNAL_5 : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 54|2@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_8 : 31|4@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_9 : 15|1@0+ (1,0) [0|3] "" XXX
  SG_ Engine_RPM : 32|12@1+ (1,0) [0|8191] "" XXX
  SG_ Engine_Torque : 0|15@1+ (1,0) [0|255] "" XXX
  SG_ Wheel_Torque : 16|12@1+ (1,0) [0|255] "" XXX
+ SG_ Engine_Stop : 15|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 208 G_Sensor: 8 XXX
  SG_ NEW_SIGNAL_1 : 47|8@0+ (1,0) [0|255] "" XXX
