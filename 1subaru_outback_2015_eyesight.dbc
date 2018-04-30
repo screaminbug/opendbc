@@ -208,8 +208,8 @@ BO_ 328 Transmission: 8 XXX
  SG_ NEW_SIGNAL_4 : 15|4@0+ (1,0) [0|15] "" XXX
  SG_ Speed_Rough_2 : 52|4@1+ (1,0) [0|15] "" XXX
  SG_ Paddle_Shift : 60|2@1+ (1,0) [0|255] "" XXX
- SG_ Transmission_Engine : 16|15@1+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_1 : 31|1@0+ (1,0) [0|3] "" XXX
+ SG_ Transmission_Engine : 16|15@1+ (1,0) [0|65535] "" XXX
 
 BO_ 210 Brake_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 46|1@0+ (1,0) [0|4294967295] "" XXX
@@ -329,9 +329,9 @@ BO_ 358 ES_CruiseControl_2: 8 XXX
 BO_ 354 ES_Transmission: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|1@1+ (1,0) [0|7] "" XXX
  SG_ Counter : 48|3@1+ (1,0) [0|7] "" XXX
- SG_ Transmission : 16|16@1+ (1,0) [0|255] "" XXX
  SG_ Cruise_Activated : 9|1@0+ (1,0) [0|3] "" XXX
  SG_ Checksum : 39|8@0+ (1,0) [0|65535] "" XXX
+ SG_ Transmission : 16|16@1+ (1,0) [0|255] "" XXX
 
 
 
@@ -353,5 +353,6 @@ CM_ SG_ 359 NEW_SIGNAL_3 "Left and right depart";
 CM_ SG_ 359 1Right_Depart "object in front alert and right depart";
 CM_ SG_ 358 Cruise_Activated "is 1 when cruise is able to go";
 CM_ SG_ 358 Car_Follow "front car detected";
+CM_ SG_ 354 Transmission "20hz version of Transmission_Engine under Transmission";
 VAL_ 642 Right_Signal 2 "Left" 1 "Right" ;
 CM_ "CHFFR_METRIC 2 STEER_ANGLE STEER_ANGLE 0.36 180";
