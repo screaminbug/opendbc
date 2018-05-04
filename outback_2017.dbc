@@ -214,18 +214,18 @@ BO_ 210 Brakes_2: 8 XXX
 BO_ 346 Counter_3: 8 XXX
  SG_ Counter : 0|4@1+ (1,0) [0|15] "" XXX
 
-BO_ 356 Counter_2: 8 XXX
+BO_ 356 ES_Counter_2: 8 XXX
  SG_ Counter_1 : 0|4@1+ (1,0) [0|15] "" XXX
  SG_ Counter_2 : 56|4@1+ (1,0) [0|15] "" XXX
 
-BO_ 352 Counter_1: 8 XXX
+BO_ 352 ES_Counter_1: 8 XXX
  SG_ Counter_1 : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ Counter_2 : 59|4@0+ (1,0) [0|4095] "" XXX
 
 BO_ 392 Counter_0: 8 XXX
  SG_ Counter : 16|4@1+ (1,0) [0|15] "" XXX
 
-BO_ 353 NEW_MSG_1: 8 XXX
+BO_ 353 ES_NEW_MSG_1: 8 XXX
  SG_ Counter_1 : 47|4@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_1 : 60|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 15|4@0+ (1,0) [0|15] "" XXX
@@ -253,6 +253,18 @@ BO_ 977 NEW_MSG_12: 8 XXX
  SG_ NEW_SIGNAL_2 : 16|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 872 NEW_MSG_15: 8 XXX
+
+BO_ 354 ES_NEW_MSG_6: 8 XXX
+ SG_ NEW_SIGNAL_1 : 48|3@1+ (1,0) [0|7] "" XXX
+ SG_ Checksum : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 16|16@1+ (1,0) [0|255] "" XXX
+
+BO_ 358 ES_NEW_MSG_1: 8 XXX
+
+BO_ 359 ES_NEW_MSG_1: 8 XXX
+
+BO_ 417018865 NEW_MSG_1: 8 XXX
+ SG_ NEW_SIGNAL_1 : 8|1@0+ (1,0) [0|1] "" XXX
 
 
 
