@@ -227,11 +227,12 @@ BO_ 346 Counter_3: 8 XXX
 BO_ 356 ES_SteeringLKAS: 8 XXX
  SG_ Counter_1 : 0|4@1+ (1,0) [0|15] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_1 : 8|13@1- (1,0) [0|65535] "" XXX
+ SG_ SteerTorque : 8|13@1- (1,0) [0|65535] "" XXX
 
 BO_ 352 ES_Counter_1: 8 XXX
  SG_ Counter_1 : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ Counter_2 : 59|4@0+ (1,0) [0|4095] "" XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 392 Counter_0: 8 XXX
  SG_ Counter : 16|4@1+ (1,0) [0|15] "" XXX
@@ -286,6 +287,11 @@ BO_ 358 ES_NEW_MSG_1: 8 XXX
 BO_ 359 ES_NEW_MSG_1: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 36|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_3 : 24|2@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_4 : 48|5@1+ (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_5 : 28|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_6 : 31|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_7 : 37|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 417018865 ES_NEW_MSG_1: 8 XXX
  SG_ NEW_SIGNAL_1 : 8|1@0+ (1,0) [0|1] "" XXX
