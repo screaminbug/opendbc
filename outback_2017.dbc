@@ -103,6 +103,8 @@ BO_ 805 ES_undefined: 8 XXX
  SG_ NEW_SIGNAL_3 : 23|2@0+ (1,0) [0|3] "" XXX
 
 BO_ 604 undefined: 8 XXX
+ SG_ NEW_SIGNAL_1 : 33|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_3 : 43|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 886 undefined: 8 XXX
 
@@ -184,6 +186,8 @@ BO_ 864 Engine_Temp: 8 XXX
  SG_ Oil_Temp : 16|8@1+ (1,-40) [0|255] "" XXX
  SG_ Coolant_Temp : 24|8@1+ (1,-40) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ set_speed : 56|8@1+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_3 : 0|16@1+ (1,0) [0|255] "" XXX
 
 BO_ 212 Wheel_Speed: 8 XXX
  SG_ FR : 16|16@1+ (0.05747,0) [0|255] "KPH" XXX
@@ -220,9 +224,10 @@ BO_ 210 Brake_2: 8 XXX
 BO_ 346 Counter_3: 8 XXX
  SG_ Counter : 0|4@1+ (1,0) [0|15] "" XXX
 
-BO_ 356 ES_Counter_2: 8 XXX
+BO_ 356 ES_SteeringLKAS: 8 XXX
  SG_ Counter_1 : 0|4@1+ (1,0) [0|15] "" XXX
- SG_ Counter_2 : 56|4@1+ (1,0) [0|15] "" XXX
+ SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 8|13@1- (1,0) [0|65535] "" XXX
 
 BO_ 352 ES_Counter_1: 8 XXX
  SG_ Counter_1 : 48|4@1+ (1,0) [0|15] "" XXX
