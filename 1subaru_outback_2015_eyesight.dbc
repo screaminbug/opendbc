@@ -49,12 +49,12 @@ BO_ 324 CruiseControl: 8 XXX
  SG_ OnOffButton : 2|1@1+ (1,0) [0|3] "" XXX
  SG_ SET_BUTTON : 3|1@0+ (1,0) [0|3] "" XXX
  SG_ RES_BUTTON : 4|1@0+ (1,0) [0|3] "" XXX
- SG_ Cruise_Activated : 49|1@0+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_6 : 50|1@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_3 : 51|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_4 : 28|5@0+ (1,0) [0|16777215] "" XXX
  SG_ NEW_SIGNAL_9 : 15|1@1+ (1,0) [0|127] "" XXX
  SG_ NEW_SIGNAL_2 : 8|1@0+ (1,0) [0|255] "" XXX
+ SG_ Cruise_Activated : 49|1@0+ (1,0) [0|7] "" XXX
+ SG_ Brake_Pedal_On : 51|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 320 Throttle: 8 XXX
  SG_ Off_Throttle_2 : 56|1@1+ (1,0) [0|3] "" XXX
@@ -133,12 +133,12 @@ BO_ 338 Stalk: 8 XXX
 BO_ 211 Brake_Type: 8 XXX
  SG_ NEW_SIGNAL_4 : 28|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 7|1@0+ (1,0) [0|4294967295] "" XXX
- SG_ Brake_Light : 21|1@0+ (1,0) [0|3] "" XXX
- SG_ Brake_Cruise_On : 42|1@0+ (1,0) [0|3] "" XXX
- SG_ Brake_Pedal_On : 46|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 16|4@1+ (1,0) [0|15] "" XXX
  SG_ Speed_Counter : 39|8@0+ (1,0) [0|15] "" XXX
  SG_ Counter : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ Brake_Light : 21|1@0+ (1,0) [0|3] "" XXX
+ SG_ Brake_Cruise_On : 42|1@0+ (1,0) [0|3] "" XXX
+ SG_ Brake_Pedal_On : 46|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 321 undefined: 8 XXX
  SG_ NEW_SIGNAL_7 : 59|2@1+ (1,0) [0|63] "" XXX
@@ -313,16 +313,16 @@ BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ NEW_SIGNAL_4 : 34|1@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_5 : 33|1@1+ (1,0) [0|3] "" XXX
  SG_ Cruise_On : 16|1@1+ (1,0) [0|7] "" XXX
- SG_ Saved_Speed : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ Cruise_Activated : 17|1@1+ (1,0) [0|3] "" XXX
- SG_ No_Activate : 20|1@0+ (1,0) [0|15] "" XXX
  SG_ Not_ready : 0|3@1+ (1,0) [0|7] "" XXX
- SG_ Car_Follow : 46|1@1+ (1,0) [0|255] "" XXX
  SG_ Obstacle_Distance : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_6 : 21|1@0+ (1,0) [0|3] "" XXX
  SG_ Cruise_Off : 22|1@0+ (1,0) [0|3] "" XXX
  SG_ Untitled : 18|1@0+ (1,0) [0|3] "" XXX
  SG_ WHEELS_MOVING : 19|1@1+ (1,0) [0|3] "" XXX
+ SG_ Saved_Speed : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ Car_Follow : 46|1@1+ (1,0) [0|255] "" XXX
+ SG_ Driver_Input : 20|1@0+ (1,0) [0|15] "" XXX
 
 BO_ 354 ES_Transmission: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|1@1+ (1,0) [0|7] "" XXX
@@ -341,6 +341,7 @@ CM_ SG_ 642 Counter "Affected by signals";
 CM_ SG_ 642 RIGHT_BLINKER "0 off, 2 right, 1 left";
 CM_ SG_ 880 Steering_Voltage "receives later than 371";
 CM_ SG_ 338 Wiper "0 off, 1 on";
+CM_ SG_ 211 Brake_Pedal_On "high tolerance";
 CM_ SG_ 881 Left_Right "Missing extra larger bits";
 CM_ SG_ 881 Steering_Motor_Flat "Possibly motor voltage";
 CM_ SG_ 212 RL "KPH";
