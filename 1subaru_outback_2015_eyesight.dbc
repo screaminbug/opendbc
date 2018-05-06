@@ -84,11 +84,11 @@ BO_ 2 Steering: 8 XXX
 
 BO_ 642 Dashlights: 8 XXX
  SG_ NEW_SIGNAL_2 : 32|1@1+ (1,0) [0|15] "" XXX
- SG_ Left_Signal : 44|1@0+ (1,0) [0|3] "" XXX
- SG_ Right_Signal : 45|1@0+ (1,0) [0|3] "" XXX
  SG_ Counter : 15|4@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_1 : 0|12@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 34|2@1+ (1,0) [0|3] "" XXX
+ SG_ LEFT_BLINKER : 44|1@0+ (1,0) [0|3] "" XXX
+ SG_ RIGHT_BLINKER : 45|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 882 Counter: 8 XXX
  SG_ Counter : 15|4@0+ (1,0) [0|31] "" XXX
@@ -299,13 +299,13 @@ BO_ 865 NEW_MSG_16: 8 XXX
 
 BO_ 359 ES_LDW: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|1@1+ (1,0) [0|255] "" XXX
- SG_ Warning : 51|1@0+ (1,0) [0|3] "" XXX
- SG_ All_depart : 52|1@0+ (1,0) [0|3] "" XXX
- SG_ Right_Depart : 48|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_7 : 28|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_3 : 31|1@0+ (1,0) [0|15] "" XXX
+ SG_ 1Right_Depart_Front : 49|1@1+ (1,0) [0|3] "" XXX
+ SG_ Right_Depart : 48|1@1+ (1,0) [0|3] "" XXX
  SG_ 2Right_Depart : 50|1@1+ (1,0) [0|7] "" XXX
- SG_ 1Right_Depart : 49|1@1+ (1,0) [0|3] "" XXX
+ SG_ left_Warning_front : 51|1@0+ (1,0) [0|3] "" XXX
+ SG_ All_depart : 52|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ Counter : 39|3@0+ (1,0) [0|7] "" XXX
@@ -316,13 +316,13 @@ BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ Saved_Speed : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ Cruise_Activated : 17|1@1+ (1,0) [0|3] "" XXX
  SG_ No_Activate : 20|1@0+ (1,0) [0|15] "" XXX
- SG_ Wheel_stop : 19|1@1+ (1,0) [0|3] "" XXX
  SG_ Not_ready : 0|3@1+ (1,0) [0|7] "" XXX
  SG_ Car_Follow : 46|1@1+ (1,0) [0|255] "" XXX
  SG_ Obstacle_Distance : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_6 : 21|1@0+ (1,0) [0|3] "" XXX
  SG_ Cruise_Off : 22|1@0+ (1,0) [0|3] "" XXX
  SG_ Untitled : 18|1@0+ (1,0) [0|3] "" XXX
+ SG_ WHEELS_MOVING : 19|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 354 ES_Transmission: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|1@1+ (1,0) [0|7] "" XXX
@@ -337,20 +337,20 @@ BO_ 354 ES_Transmission: 8 XXX
 CM_ SG_ 320 Off_Throttle_2 "Less sensitive than first";
 CM_ SG_ 320 Throttle_Body "Throttle related";
 CM_ SG_ 2 NEW_SIGNAL_1 "";
-CM_ SG_ 642 Right_Signal "0 off, 2 right, 1 left";
 CM_ SG_ 642 Counter "Affected by signals";
+CM_ SG_ 642 RIGHT_BLINKER "0 off, 2 right, 1 left";
 CM_ SG_ 880 Steering_Voltage "receives later than 371";
 CM_ SG_ 338 Wiper "0 off, 1 on";
 CM_ SG_ 881 Left_Right "Missing extra larger bits";
 CM_ SG_ 881 Steering_Motor_Flat "Possibly motor voltage";
 CM_ SG_ 212 RL "KPH";
 CM_ SG_ 212 FL "";
-CM_ SG_ 359 Warning "warning after acceleration into car in front and left depart";
 CM_ SG_ 359 NEW_SIGNAL_7 "Left and right depart";
 CM_ SG_ 359 NEW_SIGNAL_3 "Left and right depart";
-CM_ SG_ 359 1Right_Depart "object in front alert and right depart";
+CM_ SG_ 359 1Right_Depart_Front "object in front alert and right depart";
+CM_ SG_ 359 left_Warning_front "warning after acceleration into car in front and left depart";
 CM_ SG_ 358 Cruise_Activated "is 1 when cruise is able to go";
 CM_ SG_ 358 Car_Follow "front car detected";
 CM_ SG_ 354 Transmission "20hz version of Transmission_Engine under Transmission";
-VAL_ 642 Right_Signal 2 "Left" 1 "Right" ;
+VAL_ 642 RIGHT_BLINKER 2 "Left" 1 "Right" ;
 CM_ "CHFFR_METRIC 2 STEER_ANGLE STEER_ANGLE 0.36 180";
