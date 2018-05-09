@@ -298,14 +298,14 @@ BO_ 865 NEW_MSG_16: 8 XXX
  SG_ NEW_SIGNAL_2 : 12|1@1+ (1,0) [0|255] "" XXX
 
 BO_ 359 ES_LDW: 8 XXX
- SG_ NEW_SIGNAL_1 : 0|1@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_7 : 28|1@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_3 : 31|1@0+ (1,0) [0|15] "" XXX
  SG_ 1Right_Depart_Front : 49|1@1+ (1,0) [0|3] "" XXX
- SG_ Right_Depart : 48|1@1+ (1,0) [0|3] "" XXX
  SG_ 2Right_Depart : 50|1@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_3 : 31|1@0+ (1,0) [0|15] "" XXX
+ SG_ Left_right_depart : 0|1@1+ (1,0) [0|255] "" XXX
+ SG_ Left_right_depart_1 : 28|1@0+ (1,0) [0|3] "" XXX
  SG_ left_Warning_front : 51|1@0+ (1,0) [0|3] "" XXX
  SG_ All_depart : 52|1@0+ (1,0) [0|3] "" XXX
+ SG_ Right_Depart : 48|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ Counter : 39|3@0+ (1,0) [0|7] "" XXX
@@ -324,12 +324,12 @@ BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ Car_Follow : 46|1@1+ (1,0) [0|255] "" XXX
  SG_ Driver_Input : 20|1@0+ (1,0) [0|15] "" XXX
 
-BO_ 354 ES_Transmission: 8 XXX
+BO_ 354 ES_RPM: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|1@1+ (1,0) [0|7] "" XXX
  SG_ Counter : 48|3@1+ (1,0) [0|7] "" XXX
  SG_ Cruise_Activated : 9|1@0+ (1,0) [0|3] "" XXX
  SG_ Checksum : 39|8@0+ (1,0) [0|65535] "" XXX
- SG_ Transmission : 16|16@1+ (1,0) [0|255] "" XXX
+ SG_ RPM : 16|16@1+ (1,0) [0|255] "" XXX
 
 
 
@@ -346,12 +346,12 @@ CM_ SG_ 881 Left_Right "Missing extra larger bits";
 CM_ SG_ 881 Steering_Motor_Flat "Possibly motor voltage";
 CM_ SG_ 212 RL "KPH";
 CM_ SG_ 212 FL "";
-CM_ SG_ 359 NEW_SIGNAL_7 "Left and right depart";
-CM_ SG_ 359 NEW_SIGNAL_3 "Left and right depart";
 CM_ SG_ 359 1Right_Depart_Front "object in front alert and right depart";
+CM_ SG_ 359 NEW_SIGNAL_3 "Left and right depart";
+CM_ SG_ 359 Left_right_depart_1 "Left and right depart";
 CM_ SG_ 359 left_Warning_front "warning after acceleration into car in front and left depart";
 CM_ SG_ 358 Cruise_Activated "is 1 when cruise is able to go";
 CM_ SG_ 358 Car_Follow "front car detected";
-CM_ SG_ 354 Transmission "20hz version of Transmission_Engine under Transmission";
+CM_ SG_ 354 RPM "20hz version of Transmission_Engine under Transmission";
 VAL_ 642 RIGHT_BLINKER 2 "Left" 1 "Right" ;
 CM_ "CHFFR_METRIC 2 STEER_ANGLE STEER_ANGLE 0.36 180";
