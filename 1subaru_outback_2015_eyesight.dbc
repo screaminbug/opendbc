@@ -206,9 +206,9 @@ BO_ 328 Transmission: 8 XXX
  SG_ NEW_SIGNAL_7 : 63|1@0+ (1,0) [0|3] "" XXX
  SG_ Speed_Rough : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_4 : 15|4@0+ (1,0) [0|15] "" XXX
- SG_ Speed_Rough_2 : 52|4@1+ (1,0) [0|15] "" XXX
  SG_ Paddle_Shift : 60|2@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 31|1@0+ (1,0) [0|3] "" XXX
+ SG_ Speed_Rough_2 : 52|4@1+ (1,0) [0|15] "" XXX
  SG_ Transmission_Engine : 16|15@1+ (1,0) [0|65535] "" XXX
 
 BO_ 210 Brake_2: 8 XXX
