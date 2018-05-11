@@ -81,6 +81,7 @@ BO_ 2 Steering: 8 XXX
  SG_ NEW_SIGNAL_6 : 24|1@1+ (1,0) [0|3] "" XXX
  SG_ Counter : 25|3@1+ (1,0) [0|15] "" XXX
  SG_ Checksum : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 22|3@0+ (1,0) [0|7] "" XXX
 
 BO_ 642 Dashlights: 8 XXX
  SG_ NEW_SIGNAL_2 : 32|1@1+ (1,0) [0|15] "" XXX
@@ -107,6 +108,8 @@ BO_ 880 Steer_Torque_2: 8 XXX
  SG_ Steer_Torque : 39|8@0- (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 48|4@1- (1,0) [0|15] "" XXX
  SG_ Steering_Voltage : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4_2017 : 52|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_5_2017 : 54|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 554 NEW_MSG_3: 8 XXX
  SG_ Counter : 0|4@1+ (1,0) [0|255] "" XXX
@@ -239,7 +242,7 @@ BO_ 352 ES_CruiseBrake: 8 XXX
  SG_ Checksum : 63|8@0+ (1,0) [0|4095] "" XXX
  SG_ Cruise_Brake_Light : 20|1@0+ (1,0) [0|3] "" XXX
  SG_ Counter : 48|4@1+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_1_2017 : 45|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 45|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 392 Counter_0: 8 XXX
  SG_ Counter : 16|4@1+ (1,0) [0|15] "" XXX
