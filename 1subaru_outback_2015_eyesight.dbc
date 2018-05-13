@@ -259,10 +259,10 @@ BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ NEW_SIGNAL_6_Blank : 23|1@0+ (1,0) [0|7] "" XXX
  SG_ Wheel_stop_Cruise : 22|1@0+ (1,0) [0|3] "" XXX
  SG_ Cruise_Off_Throttle : 20|1@0+ (1,0) [0|7] "" XXX
- SG_ Cruise_Cancel : 18|1@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_9 : 17|1@1+ (1,0) [0|3] "" XXX
  SG_ Button_Speed_Down : 49|1@1+ (1,0) [0|3] "" XXX
  SG_ Button_Speed_Up : 48|1@1+ (1,0) [0|3] "" XXX
+ SG_ Cruise_Blocker : 18|1@1+ (1,0) [0|7] "" XXX
 
 BO_ 1632 Huge_Counter: 8 XXX
  SG_ NEW_SIGNAL_1 : 31|8@0+ (1,0) [0|255] "" XXX
