@@ -228,11 +228,11 @@ BO_ 346 Counter_3: 8 XXX
  SG_ NEW_SIGNAL_2 : 57|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 356 ES_LKAS: 8 XXX
- SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
+ SG_ Counter : 0|4@1+ (1,0) [0|15] "" XXX
  SG_ LKAS_Output : 8|11@1- (1,0) [0|127] "" XXX
  SG_ Left_Turn_Is_3 : 20|2@0+ (1,0) [0|3] "" XXX
- SG_ Counter : 0|4@1+ (1,0) [0|15] "" XXX
- SG_ LKAS_Steer_Active : 24|1@0+ (1,0) [0|7] "" XXX
+ SG_ LKAS_Steer_Active : 24|1@1+ (1,0) [0|7] "" XXX
+ SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
 
 BO_ 352 ES_CruiseBrake: 8 XXX
  SG_ Cruise_Brake_On : 22|1@0+ (1,0) [0|3] "" XXX
@@ -252,10 +252,8 @@ BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ Counter_1 : 46|3@0+ (1,0) [0|15] "" XXX
  SG_ DistanceSwap : 21|1@0+ (1,0) [0|3] "" XXX
  SG_ CloseDistance : 24|8@1+ (1,0) [0|255] "" XXX
- SG_ Button_Speed_Down : 49|1@1+ (1,0) [0|3] "" XXX
  SG_ Button_Resume : 50|1@1+ (1,0) [0|15] "" XXX
  SG_ Cruise_Activated : 16|1@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_2_Blank : 48|1@1+ (1,0) [0|3] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3_Blank : 15|4@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_6_Blank : 23|1@0+ (1,0) [0|7] "" XXX
@@ -263,6 +261,8 @@ BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ Cruise_Off_Throttle : 20|1@0+ (1,0) [0|7] "" XXX
  SG_ Cruise_Cancel : 18|1@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_9 : 17|1@1+ (1,0) [0|3] "" XXX
+ SG_ Button_Speed_Down : 49|1@1+ (1,0) [0|3] "" XXX
+ SG_ Button_Speed_Up : 48|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 1632 Huge_Counter: 8 XXX
  SG_ NEW_SIGNAL_1 : 31|8@0+ (1,0) [0|255] "" XXX
@@ -356,10 +356,10 @@ CM_ SG_ 212 FL "";
 CM_ SG_ 329 NEW_SIGNAL_4 "high at stop";
 CM_ SG_ 329 NEW_SIGNAL_2 "higher on brakes and accel than coast";
 CM_ SG_ 352 NEW_SIGNAL_1 "0 on 2015";
-CM_ SG_ 353 NEW_SIGNAL_2_Blank "0";
 CM_ SG_ 353 NEW_SIGNAL_3_Blank "always 2";
 CM_ SG_ 353 NEW_SIGNAL_6_Blank "always 1";
 CM_ SG_ 353 NEW_SIGNAL_9 "not always 0, 1 in some low speed cases where lead car is slowing down";
+CM_ SG_ 353 Button_Speed_Up "0";
 CM_ SG_ 359 1Right_Depart_Front "object in front alert and right depart";
 CM_ SG_ 359 LKAS_Inactive_2017 "1 when not steering, 0 when lkas steering";
 CM_ SG_ 359 Left_Depart_Front "warning after acceleration into car in front and left depart";
