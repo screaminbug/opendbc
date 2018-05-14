@@ -117,9 +117,9 @@ BO_ 313 NEW_MSG_8: 8 XXX
  SG_ NEW_SIGNAL_5 : 8|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 290 ES_NEW_MSG_9: 8 XXX
- SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ Checksum : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 12|1@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_2 : 8|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 722 NEW_MSG_10: 8 XXX
  SG_ NEW_SIGNAL_1 : 27|3@1+ (1,0) [0|255] "" XXX
@@ -129,16 +129,15 @@ BO_ 722 NEW_MSG_10: 8 XXX
  SG_ NEW_SIGNAL_5 : 45|2@0+ (1,0) [0|3] "" XXX
 
 BO_ 544 ES_NEW_MSG_11: 8 XXX
- SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_2 : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 16|8@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_4 : 36|4@1+ (1,0) [0|63] "" XXX
+ SG_ Checksum : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 545 ES_Distance: 8 XXX
  SG_ Close_Distance : 47|8@0+ (1,0) [0|255] "" XXX
  SG_ Distance_Swap : 37|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_5 : 39|1@0+ (1,0) [0|31] "" XXX
- SG_ NEW_SIGNAL_7 : 31|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_9 : 38|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_4 : 34|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_8 : 36|1@0+ (1,0) [0|3] "" XXX
@@ -147,19 +146,21 @@ BO_ 545 ES_Distance: 8 XXX
  SG_ NEW_SIGNAL_10 : 35|1@1+ (1,0) [0|3] "" XXX
  SG_ Checksum : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|65535] "" XXX
+ SG_ Throttle : 16|12@1+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_1 : 31|4@0+ (1,0) [0|15] "" XXX
 
 BO_ 546 ES_NEW_MSG_12: 8 XXX
- SG_ NEW_SIGNAL_3 : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_4 : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ Brake_Pedal : 30|1@0+ (1,0) [0|3] "" XXX
  SG_ RPM : 16|12@1+ (1,0) [0|255] "" XXX
+ SG_ Checksum : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 29|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 554 ES_NEW_MSG_13: 8 XXX
- SG_ NEW_SIGNAL_1 : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_2 : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 39|16@1+ (1,0) [0|16777215] "" XXX
  SG_ NEW_SIGNAL_4 : 13|1@0+ (1,0) [0|3] "" XXX
+ SG_ Checksum : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 557 NEW_MSG_14: 8 XXX
  SG_ NEW_SIGNAL_1 : 8|4@1+ (1,0) [0|15] "" XXX
@@ -191,8 +192,6 @@ BO_ 940 NEW_MSG_19: 8 XXX
  SG_ NEW_SIGNAL_3 : 54|1@0+ (1,0) [0|7] "" XXX
 
 BO_ 801 ES_NEW_MSG_20: 8 XXX
- SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_2 : 8|4@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_5 : 52|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_6 : 36|2@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_7 : 42|2@1+ (1,0) [0|3] "" XXX
@@ -203,19 +202,22 @@ BO_ 801 ES_NEW_MSG_20: 8 XXX
  SG_ NEW_SIGNAL_12 : 29|1@0+ (1,0) [0|7] "" XXX
  SG_ Brake_Pedal : 51|1@0+ (1,0) [0|3] "" XXX
  SG_ Distance : 56|4@1+ (1,0) [0|15] "" XXX
+ SG_ Checksum : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|7] "" XXX
 
 BO_ 802 ES_NEW_MSG_21: 8 XXX
- SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 32|5@1+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_3 : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_4 : 44|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_5 : 56|2@1+ (1,0) [0|3] "" XXX
+ SG_ Checksum : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 805 ES_NEW_MSG_22: 8 XXX
- SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_2 : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 23|2@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_4 : 14|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_4 : 15|1@0+ (1,0) [0|3] "" XXX
+ SG_ Checksum : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 14|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 808 NEW_MSG_23: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
