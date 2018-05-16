@@ -120,6 +120,7 @@ BO_ 290 ES_NEW_MSG_9: 8 XXX
  SG_ Checksum : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 12|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 23|16@0+ (1,0) [0|3] "" XXX
 
 BO_ 722 NEW_MSG_10: 8 XXX
  SG_ NEW_SIGNAL_1 : 27|3@1+ (1,0) [0|255] "" XXX
@@ -186,10 +187,17 @@ BO_ 912 NEW_MSG_18: 8 XXX
  SG_ NEW_SIGNAL_3 : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_4 : 50|1@0+ (1,0) [0|3] "" XXX
 
-BO_ 940 NEW_MSG_19: 8 XXX
+BO_ 940 Door: 8 XXX
  SG_ NEW_SIGNAL_1 : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_2 : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 54|1@0+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_4 : 32|1@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 33|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_6 : 39|1@0+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_7 : 35|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_8 : 16|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_9 : 31|3@0+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_10 : 13|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 801 ES_NEW_MSG_20: 8 XXX
  SG_ NEW_SIGNAL_5 : 52|1@0+ (1,0) [0|3] "" XXX
@@ -204,6 +212,8 @@ BO_ 801 ES_NEW_MSG_20: 8 XXX
  SG_ Distance : 56|4@1+ (1,0) [0|15] "" XXX
  SG_ Checksum : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_1 : 28|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_2 : 40|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 802 ES_NEW_MSG_21: 8 XXX
  SG_ NEW_SIGNAL_2 : 32|5@1+ (1,0) [0|15] "" XXX
@@ -211,6 +221,9 @@ BO_ 802 ES_NEW_MSG_21: 8 XXX
  SG_ NEW_SIGNAL_5 : 56|2@1+ (1,0) [0|3] "" XXX
  SG_ Checksum : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ Counter : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 17|2@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_3 : 26|1@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_6 : 24|1@1+ (1,0) [0|3] "" XXX
 
 BO_ 805 ES_NEW_MSG_22: 8 XXX
  SG_ NEW_SIGNAL_3 : 23|2@0+ (1,0) [0|3] "" XXX
