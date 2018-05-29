@@ -110,8 +110,8 @@ BO_ 880 Steer_Torque_2: 8 XXX
  SG_ Steer_Torque : 39|8@0- (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 48|4@1- (1,0) [0|15] "" XXX
  SG_ Steering_Voltage : 7|8@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_4_2017 : 52|1@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_5_2017 : 54|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_4 : 52|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_5 : 54|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 554 NEW_MSG_3: 8 XXX
  SG_ Counter : 0|4@1+ (1,0) [0|255] "" XXX
@@ -316,10 +316,10 @@ BO_ 359 ES_LDW: 8 XXX
  SG_ 1All_Depart : 31|1@0+ (1,0) [0|15] "" XXX
  SG_ 2All_Depart : 28|1@0+ (1,0) [0|3] "" XXX
  SG_ 3All_Depart : 52|1@0+ (1,0) [0|3] "" XXX
- SG_ Left_right_depart_2015 : 0|1@1+ (1,0) [0|255] "" XXX
  SG_ Left_Depart_Front : 51|1@0+ (1,0) [0|3] "" XXX
  SG_ ALL_ALERT : 48|1@1+ (1,0) [0|3] "" XXX
  SG_ 1Right_Depart_Front : 49|1@1+ (1,0) [0|3] "" XXX
+ SG_ Left_right_depart_2015 : 0|1@1+ (1,0) [0|255] "" XXX
 
 BO_ 358 ES_CruiseControl_2: 8 XXX
  SG_ Counter : 39|3@0+ (1,0) [0|7] "" XXX
@@ -370,9 +370,9 @@ CM_ SG_ 353 Below_28 "not always 0, 1 in some low speed cases where lead car is 
 CM_ SG_ 359 LKAS_Inactive_2017 "1 when not steering, 0 when lkas steering";
 CM_ SG_ 359 1All_Depart "Left and right depart";
 CM_ SG_ 359 2All_Depart "Left and right depart";
-CM_ SG_ 359 Left_right_depart_2015 "always 1 on 2017";
 CM_ SG_ 359 Left_Depart_Front "warning after acceleration into car in front and left depart";
 CM_ SG_ 359 1Right_Depart_Front "object in front alert and right depart";
+CM_ SG_ 359 Left_right_depart_2015 "always 1 on 2017";
 CM_ SG_ 358 Cruise_Activated "is 1 when cruise is able to go";
 CM_ SG_ 358 Car_Follow "front car detected";
 CM_ SG_ 354 RPM "20hz version of Transmission_Engine under Transmission";
