@@ -156,6 +156,8 @@ BO_ 346 Counter_3: 8 XXX
  SG_ NEW_SIGNAL_1 : 20|1@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_2 : 57|1@1+ (1,0) [0|3] "" XXX
 
+BO_ 352 ES_Blank: 8 XXX
+
 BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ Throttle_Cruise : 0|12@1+ (1,0) [0|255] "" XXX
  SG_ Counter_1 : 46|3@0+ (1,0) [0|15] "" XXX
@@ -179,9 +181,6 @@ BO_ 354 ES_RPM: 8 XXX
  SG_ Cruise_Activated : 9|1@0+ (1,0) [0|3] "" XXX
  SG_ Checksum : 39|8@0+ (1,0) [0|65535] "" XXX
  SG_ RPM : 16|16@1+ (1,0) [0|255] "" XXX
-
-BO_ 355 NEW_MSG_4: 8 XXX
- SG_ Counter : 40|3@1+ (1,0) [0|7] "" XXX
 
 BO_ 356 ES_LKAS: 8 XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
@@ -320,8 +319,6 @@ BO_ 1745 NEW_MSG_11: 8 XXX
 BO_ 1786 NEW_MSG_9: 8 XXX
  SG_ Counter : 3|4@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 8|16@1+ (1,0) [0|15] "" XXX
-
-BO_ 352 ES_Blank: 8 XXX
 
 
 
