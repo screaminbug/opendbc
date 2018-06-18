@@ -159,25 +159,28 @@ BO_ 346 Counter_3: 8 XXX
 BO_ 352 ES_Blank: 8 XXX
  SG_ Counter : 48|3@1+ (1,0) [0|7] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_1 : 23|2@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_2 : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ Cruise_Activated : 23|1@0+ (1,0) [0|3] "" XXX
+ SG_ Wheel_Stop : 8|1@1+ (1,0) [0|3] "" XXX
+ SG_ Top_Signal : 22|1@0+ (1,0) [0|3] "" XXX
+ SG_ Brake_Pressure : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ Brake_Light : 20|1@0+ (1,0) [0|2047] "" XXX
 
 BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ Throttle_Cruise : 0|12@1+ (1,0) [0|255] "" XXX
  SG_ Counter_1 : 46|3@0+ (1,0) [0|15] "" XXX
  SG_ Wheel_stop : 22|1@0+ (1,0) [0|3] "" XXX
- SG_ DistanceSwap : 21|1@0+ (1,0) [0|3] "" XXX
  SG_ CloseDistance : 24|8@1+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_1 : 20|1@0+ (1,0) [0|7] "" XXX
  SG_ Unknown : 18|1@1+ (1,0) [0|7] "" XXX
  SG_ Button_Speed_Down : 49|1@1+ (1,0) [0|3] "" XXX
  SG_ Button_Resume : 50|1@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3_Blank : 15|4@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_6_Blank : 23|1@0+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_2_Blank : 48|1@1+ (1,0) [0|3] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
- SG_ Cruise_Activated : 16|1@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_9 : 17|1@1+ (1,0) [0|3] "" XXX
+ SG_ Cruise_Activatedish : 16|1@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_6_Blank : 23|1@0+ (1,0) [0|7] "" XXX
+ SG_ DistanceSwap : 21|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 20|1@0+ (1,0) [0|7] "" XXX
 
 BO_ 354 ES_RPM: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|1@1+ (1,0) [0|7] "" XXX
@@ -336,9 +339,10 @@ CM_ SG_ 320 Off_Throttle_2 "Less sensitive";
 CM_ SG_ 320 Throttle_Body_ "Throttle related";
 CM_ SG_ 338 Wiper "0 off, 1 on";
 CM_ SG_ 353 NEW_SIGNAL_3_Blank "always 2";
-CM_ SG_ 353 NEW_SIGNAL_6_Blank "always 1";
 CM_ SG_ 353 NEW_SIGNAL_2_Blank "0";
 CM_ SG_ 353 NEW_SIGNAL_9 "flipped around quick engagement";
+CM_ SG_ 353 NEW_SIGNAL_6_Blank "always 1";
+CM_ SG_ 353 NEW_SIGNAL_1 "long activatedish";
 CM_ SG_ 354 RPM "20hz version of Transmission_Engine under Transmission";
 CM_ SG_ 358 Cruise_Activated "is 1 when cruise is able to go";
 CM_ SG_ 358 Car_Follow "front car detected";
