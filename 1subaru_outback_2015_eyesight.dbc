@@ -121,14 +121,14 @@ BO_ 324 CruiseControl_2015: 8 XXX
 
 BO_ 328 Transmission: 8 XXX
  SG_ Counter : 11|4@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_5 : 43|1@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_7 : 63|1@0+ (1,0) [0|3] "" XXX
- SG_ Speed_Rough : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_4 : 15|4@0+ (1,0) [0|15] "" XXX
  SG_ Paddle_Shift : 60|2@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 31|1@0+ (1,0) [0|3] "" XXX
- SG_ Speed_Rough_2 : 52|4@1+ (1,0) [0|15] "" XXX
  SG_ Transmission_Engine : 16|15@1+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_5 : 43|1@0+ (1,0) [0|65535] "" XXX
+ SG_ Gear : 48|4@1+ (1,0) [0|15] "" XXX
+ SG_ Gear_2 : 52|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 329 CVT_Ratio: 8 XXX
  SG_ NEW_SIGNAL_2 : 31|8@0+ (1,0) [0|255] "" XXX
@@ -339,6 +339,8 @@ CM_ SG_ 212 RL "KPH";
 CM_ SG_ 212 FL "KPH";
 CM_ SG_ 320 Off_Throttle_2 "Less sensitive";
 CM_ SG_ 320 Throttle_Body_ "Throttle related";
+CM_ SG_ 328 Gear "15 = P, 14 = R, 0 = N, 1-6=gear";
+CM_ SG_ 328 Gear_2 "15 = P, 14 = R, 0 = N, 1-6=gear";
 CM_ SG_ 338 Wiper "0 off, 1 on";
 CM_ SG_ 353 NEW_SIGNAL_3_Blank "always 2";
 CM_ SG_ 353 NEW_SIGNAL_2_Blank "0";
