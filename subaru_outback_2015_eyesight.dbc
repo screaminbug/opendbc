@@ -148,6 +148,9 @@ BO_ 338 Stalk: 8 XXX
  SG_ Runlights : 58|1@1+ (1,0) [0|3] "" XXX
  SG_ Highbeam : 60|1@0+ (1,0) [0|3] "" XXX
  SG_ Counter : 15|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 7|3@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_2 : 0|1@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_3 : 10|2@1+ (1,0) [0|3] "" XXX
 
 BO_ 342 NEW_MSG_2: 8 XXX
 
@@ -282,10 +285,10 @@ BO_ 882 Counter: 8 XXX
  SG_ Something : 16|2@1+ (1,0) [0|255] "" XXX
 
 BO_ 884 DOORS_STATUS: 8 XXX
+ SG_ DOOR_OPEN_RR : 27|1@0+ (1,0) [0|1] "" XXX
  SG_ DOOR_OPEN_FR : 24|1@0+ (1,0) [0|1] "" XXX
  SG_ DOOR_OPEN_FL : 25|1@0+ (1,0) [0|1] "" XXX
  SG_ DOOR_OPEN_RL : 26|1@0+ (1,0) [0|1] "" XXX
- SG_ DOOR_OPEN_RR : 27|1@0+ (1,0) [0|1] "" XXX
  SG_ DOOR_OPEN_Hatch : 28|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 886 undefined: 8 XXX
@@ -368,6 +371,5 @@ CM_ SG_ 880 NEW_SIGNAL_4_2017 "1 in 2017";
 CM_ SG_ 880 NEW_SIGNAL_5_2017 "1 in 2017";
 CM_ SG_ 881 Steering_Motor_Flat "Possibly motor voltage";
 CM_ SG_ 881 Left_Right "Missing extra larger bits";
-VAL_ 328 GEAR 0 "N" 1 "D" 2 "D" 3 "D" 4 "D" 5 "D" 6 "D" 14 "R" 15 "P";
 
 CM_ "CHFFR_METRIC 2 STEER_ANGLE STEER_ANGLE 0.1 180";
