@@ -77,10 +77,10 @@ BO_ 211 Brake_Type: 8 XXX
  SG_ Brake_Pedal_On : 46|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 212 WHEEL_SPEEDS: 8 XXX
- SG_ FR : 16|16@1+ (0.05747,0) [0|255] "KPH" XXX
- SG_ RR : 48|16@1+ (0.05747,0) [0|127] "KPH" XXX
- SG_ RL : 32|16@1+ (0.05747,0) [0|255] "" XXX
- SG_ FL : 0|16@1+ (0.05747,0) [2|255] "KPH" XXX
+ SG_ FL : 0|16@1+ (0.0592,0) [2|255] "KPH" XXX
+ SG_ FR : 16|16@1+ (0.0592,0) [0|255] "KPH" XXX
+ SG_ RL : 32|16@1+ (0.0592,0) [0|255] "" XXX
+ SG_ RR : 48|16@1+ (0.0592,0) [0|127] "KPH" XXX
 
 BO_ 320 Throttle: 8 XXX
  SG_ Off_Throttle_2 : 56|1@1+ (1,0) [0|3] "" XXX
@@ -211,9 +211,9 @@ BO_ 358 ES_Status: 8 XXX
  SG_ NEW_SIGNAL_5_Blank : 33|1@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_4_Blank : 34|1@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_1 : 35|1@0+ (1,0) [0|31] "" XXX
- SG_ Steep_Hill_Disengage : 44|1@0+ (1,0) [0|3] "" XXX
  SG_ 3SecondDisengage : 13|2@0+ (1,0) [0|3] "" XXX
  SG_ Not_Ready_Startup : 0|3@1+ (1,0) [0|7] "" XXX
+ SG_ Steep_Hill_Disengage : 44|1@0+ (1,0) [0|3] "" XXX
  SG_ Disengage_Alert : 15|2@0+ (1,0) [0|3] "" XXX
 
 BO_ 359 ES_LDW: 8 XXX
@@ -335,8 +335,8 @@ BO_ 1786 NEW_MSG_9: 8 XXX
 
 CM_ SG_ 2 NEW_SIGNAL_1 "";
 CM_ SG_ 211 Brake_Pedal_On "high tolerance";
-CM_ SG_ 212 RL "KPH";
 CM_ SG_ 212 FL "KPH";
+CM_ SG_ 212 RL "KPH";
 CM_ SG_ 320 Off_Throttle_2 "Less sensitive";
 CM_ SG_ 320 Throttle_Body_ "Throttle related";
 CM_ SG_ 328 Gear "15 = P, 14 = R, 0 = N, 1-6=gear";
