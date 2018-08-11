@@ -190,10 +190,10 @@ BO_ 354 ES_RPM: 8 XXX
  SG_ RPM : 16|16@1+ (1,0) [0|255] "" XXX
 
 BO_ 356 ES_LKAS: 8 XXX
+ SG_ LKAS_Output : 8|13@1- (1,0) [0|127] "" XXX
  SG_ Counter : 0|3@1+ (1,0) [0|15] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
  SG_ LKAS_Request : 24|1@1+ (1,0) [0|7] "" XXX
- SG_ LKAS_Output : 8|13@1- (1,0) [0|127] "" XXX
 
 BO_ 358 ES_Status: 8 XXX
  SG_ Counter : 39|3@0+ (1,0) [0|7] "" XXX
@@ -271,10 +271,10 @@ BO_ 880 Steer_Torque_2: 8 XXX
  SG_ NEW_SIGNAL_5_2017 : 54|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 881 Steering_Torque: 8 XXX
- SG_ Steering_Motor_LeftRight : 23|16@0- (0.125,0) [0|255] "" XXX
- SG_ Steer_Torque_Sensor : 39|16@0- (0.306,0) [0|255] "" XXX
  SG_ Steering_Motor_Flat : 0|8@1+ (1,0) [0|255] "" XXX
- SG_ Steering_Angle : 55|8@0- (1,0) [0|255] "" XXX
+ SG_ Steering_Motor_LeftRight : 23|16@0- (1,0) [0|255] "" XXX
+ SG_ Left_Right : 55|8@0- (1,0) [0|255] "" XXX
+ SG_ Steer_Torque_Sensor : 39|16@0- (1,0) [0|255] "" XXX
 
 BO_ 882 Counter: 8 XXX
  SG_ Counter : 15|4@0+ (1,0) [0|31] "" XXX
@@ -366,6 +366,6 @@ CM_ SG_ 880 NEW_SIGNAL_2 "";
 CM_ SG_ 880 NEW_SIGNAL_4_2017 "1 in 2017";
 CM_ SG_ 880 NEW_SIGNAL_5_2017 "1 in 2017";
 CM_ SG_ 881 Steering_Motor_Flat "Possibly motor voltage";
-CM_ SG_ 881 Steering_Angle "Missing extra larger bits";
+CM_ SG_ 881 Left_Right "Missing extra larger bits";
 
 CM_ "CHFFR_METRIC 2 STEER_ANGLE STEER_ANGLE 0.36 180";
