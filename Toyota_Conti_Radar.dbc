@@ -37,14 +37,15 @@ BU_: XXX
 
 
 BO_ 1664 Radar_1: 8 XXX
- SG_ Speed_Difference : 19|23@1+ (1,0) [0|65535] "" XXX
- SG_ Lateral : 48|8@1+ (1,0) [0|3] "" XXX
- SG_ Distance : 0|20@1- (1,0) [0|127] "" XXX
- SG_ NEW_SIGNAL_1 : 47|4@0+ (1,0) [0|63] "" XXX
  SG_ Tracking_Confidence : 57|7@1+ (1,0) [0|3] "" XXX
+ SG_ Distance : 0|20@1+ (1,0) [0|127] "" XXX
+ SG_ Speed_Difference : 20|22@1+ (1,0) [0|65535] "" XXX
+ SG_ Lateral : 48|8@1+ (1,-128) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 47|4@0+ (1,0) [0|63] "" XXX
+ SG_ Tracking : 42|1@1+ (1,0) [0|3] "" XXX
 
 
 
 
-CM_ SG_ 1664 Distance "";
 CM_ SG_ 1664 Tracking_Confidence "127 = confident, 87 = kinda confident, 0 = no tracking";
+CM_ SG_ 1664 Distance "";
