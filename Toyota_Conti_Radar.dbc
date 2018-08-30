@@ -36,13 +36,24 @@ BS_:
 BU_: XXX
 
 
-BO_ 1664 Radar_1: 8 XXX
+BO_ 1664 Radar_1_Main: 8 XXX
  SG_ Distance : 0|20@1+ (1,0) [0|127] "" XXX
  SG_ Speed_Difference : 20|22@1+ (1,0) [0|65535] "" XXX
  SG_ Lateral : 48|8@1+ (1,-128) [0|3] "" XXX
  SG_ Tracking : 42|1@1+ (1,0) [0|3] "" XXX
  SG_ Tracking_Confidence : 57|7@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_1 : 47|4@0+ (1,0) [0|63] "" XXX
+
+BO_ 1665 Radar_2: 8 XXX
+ SG_ NEW_SIGNAL_1 : 3|17@1+ (1,0) [0|16383] "" XXX
+
+BO_ 1666 Radar_3: 8 XXX
+
+BO_ 1667 Radar_4: 8 XXX
+
+BO_ 1668 Radar_5: 8 XXX
+
+BO_ 1669 Radar_6: 8 XXX
 
 
 
