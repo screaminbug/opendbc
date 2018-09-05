@@ -1449,3 +1449,14 @@ BO_ 1107 NEW_MSG_6: 8 XXX
  SG_ NEW_SIGNAL_1 : 39|4@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_4 : 32|4@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_2 : 16|8@1+ (1,0) [0|3] "" XXX
+
+BO_ 1851 Radar_Main: 8 XXX
+ SG_ Counter : 55|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_3 : 31|1@0+ (1,0) [0|3] "" XXX
+ SG_ Lat : 32|20@1- (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_1 : 8|10@1- (1,0) [0|255] "" XXX
+ SG_ Long : 18|13@1+ (1,0) [0|255] "" XXX
+
+BO_ 1849 NEW_MSG_7: 8 XXX
+ SG_ NEW_SIGNAL_1 : 20|12@1+ (1,0) [0|32767] "" XXX
+ SG_ NEW_SIGNAL_2 : 8|12@1+ (1,0) [0|15] "" XXX
