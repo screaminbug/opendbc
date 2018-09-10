@@ -46,4 +46,33 @@ BO_ 118 NEW_MSG_2: 8 XXX
  SG_ NEW_SIGNAL_2 : 19|12@0+ (1,0) [0|4095] "" XXX
 
 BO_ 514 NEW_MSG_3: 8 XXX
+ SG_ NEW_SIGNAL_1 : 23|16@0+ (1,0) [0|32767] "" XXX
  SG_ RPM : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_2 : 56|8@1+ (1,0) [0|127] "" XXX
+ SG_ NEW_SIGNAL_3 : 39|12@0+ (1,0) [0|255] "" XXX
+
+BO_ 357 NEW_MSG_4: 8 XXX
+ SG_ NEW_SIGNAL_2 : 4|4@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 55|16@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 3|16@0+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_3 : 19|12@0+ (1,0) [0|3] "" XXX
+
+BO_ 533 WHEEL_SPEED: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|16383] "" XXX
+ SG_ NEW_SIGNAL_2 : 23|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_4 : 39|16@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_5 : 39|1@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_3 : 55|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 134 Steering_Angle: 8 XXX
+ SG_ Steering_Angle : 7|28@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 26|19@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 576 Steering_Torque: 8 XXX
+ SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|127] "" XXX
+ SG_ NEW_SIGNAL_1 : 46|23@0- (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 0|8@1+ (1,0) [0|255] "" XXX
+
+BO_ 577 NEW_MSG_5: 8 XXX
+ SG_ NEW_SIGNAL_1 : 23|16@0+ (1,0) [0|1] "" XXX
