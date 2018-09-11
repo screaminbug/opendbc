@@ -76,3 +76,45 @@ BO_ 576 Steering_Torque: 8 XXX
 
 BO_ 577 NEW_MSG_5: 8 XXX
  SG_ NEW_SIGNAL_1 : 23|16@0+ (1,0) [0|1] "" XXX
+
+BO_ 582 CAM__LANEINFO: 8 XXX
+ SG_ Counter : 7|2@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_4 : 40|8@1+ (1,0) [0|127] "" XXX
+ SG_ NEW_SIGNAL_2 : 55|18@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_1 : 5|38@0- (1,0) [0|65535] "" XXX
+
+BO_ 541 CAM__Empty: 8 XXX
+
+BO_ 605 CAM_Counter: 8 XXX
+ SG_ 7 : 0|8@1+ (1,0) [0|7] "" XXX
+ SG_ 248 : 8|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 26|4@1+ (1,0) [0|31] "" XXX
+ SG_ Reset_Counter : 23|6@0+ (1,0) [0|63] "" XXX
+ SG_ Counter : 17|4@0+ (1,0) [0|255] "" XXX
+
+BO_ 578 CAM__IDK2: 8 XXX
+ SG_ Counter_2 : 56|4@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 48|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 63|4@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_5 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_6 : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_10 : 3|8@0+ (1,0) [0|1] "" XXX
+ SG_ Counter : 7|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_7 : 9|10@0+ (1,0) [0|255] "" XXX
+
+BO_ 579 CAM_LKAS: 8 XXX
+ SG_ NEW_SIGNAL_2 : 7|4@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_3 : 0|5@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_4 : 16|8@1+ (1,0) [0|8589934591] "" XXX
+ SG_ NEW_SIGNAL_6 : 3|12@0+ (1,0) [0|15] "" XXX
+ SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
+
+BO_ 580 CAM__IDK: 8 XXX
+ SG_ NEW_SIGNAL_1 : 55|16@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 47|8@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_3 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 24|8@1+ (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_7 : 15|8@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_6 : 16|8@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_5 : 0|8@1+ (1,0) [0|127] "" XXX
