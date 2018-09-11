@@ -104,11 +104,13 @@ BO_ 578 CAM__IDK2: 8 XXX
  SG_ NEW_SIGNAL_7 : 9|10@0+ (1,0) [0|255] "" XXX
 
 BO_ 579 CAM_LKAS: 8 XXX
- SG_ NEW_SIGNAL_2 : 7|4@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_3 : 0|5@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_4 : 16|8@1+ (1,0) [0|8589934591] "" XXX
- SG_ NEW_SIGNAL_6 : 3|12@0+ (1,0) [0|15] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
+ SG_ LKAS_Request : 3|12@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 29|1@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_5 : 33|1@1+ (1,0) [0|7] "" XXX
+ SG_ Counter : 7|4@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_3 : 23|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_4 : 19|1@1+ (1,0) [0|8589934591] "" XXX
 
 BO_ 580 CAM__IDK: 8 XXX
  SG_ NEW_SIGNAL_1 : 55|16@0+ (1,0) [0|255] "" XXX
@@ -118,3 +120,35 @@ BO_ 580 CAM__IDK: 8 XXX
  SG_ NEW_SIGNAL_7 : 15|8@0+ (1,0) [0|1] "" XXX
  SG_ NEW_SIGNAL_6 : 16|8@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_5 : 0|8@1+ (1,0) [0|127] "" XXX
+
+BO_ 581 CAM_IDK3: 8 XXX
+ SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_2 : 56|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 48|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 40|8@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_5 : 32|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_6 : 24|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_7 : 16|8@1+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_8 : 8|6@1+ (1,0) [0|255] "" XXX
+
+BO_ 863 CAM__STATUS: 8 XXX
+ SG_ NEW_SIGNAL_1 : 32|1@0+ (1,0) [0|32767] "" XXX
+ SG_ NEW_SIGNAL_3 : 31|4@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_5 : 4|2@0+ (1,0) [0|32767] "" XXX
+ SG_ NEW_SIGNAL_2 : 40|1@1+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_4 : 15|4@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_6 : 0|3@1+ (1,0) [0|7] "" XXX
+
+BO_ 1157 CAM__Empty2: 8 XXX
+
+BO_ 1160 CAM__Empty3: 8 XXX
+ SG_ NEW_SIGNAL_1 : 47|24@0+ (1,0) [0|16777215] "" XXX
+
+BO_ 1088 CAM__STATUS2: 8 XXX
+ SG_ NEW_SIGNAL_2 : 0|2@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_3 : 8|3@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 6|1@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_4 : 57|2@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_5 : 62|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_7 : 54|1@0+ (1,0) [0|31] "" XXX
+ SG_ NEW_SIGNAL_6 : 13|1@0+ (1,0) [0|15] "" XXX
