@@ -61,14 +61,13 @@ BO_ 533 WHEEL_SPEED: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|16383] "" XXX
  SG_ NEW_SIGNAL_2 : 23|16@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_4 : 39|16@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_5 : 39|1@0+ (1,0) [0|1] "" XXX
  SG_ NEW_SIGNAL_3 : 55|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 134 Steering_Angle: 8 XXX
- SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
+ SG_ Steering_Angle : 7|28@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 26|19@0+ (1,0) [0|15] "" XXX
- SG_ Counter : 55|2@0+ (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_2 : 48|6@1+ (1,0) [0|7] "" XXX
- SG_ Steering_Angle : 7|28@0+ (0.000025,-1500) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 56|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 576 Steering_Torque: 8 XXX
  SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|127] "" XXX
@@ -105,13 +104,13 @@ BO_ 578 CAM__IDK2: 8 XXX
  SG_ NEW_SIGNAL_7 : 9|10@0+ (1,0) [0|255] "" XXX
 
 BO_ 579 CAM_LKAS: 8 XXX
+ SG_ 8 : 19|1@1+ (1,0) [0|8589934591] "" XXX
+ SG_ 128 : 23|1@0+ (1,0) [0|3] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_4 : 19|1@1+ (1,0) [0|8589934591] "" XXX
- SG_ LKAS_Request : 3|12@0+ (1,-2048) [0|15] "" XXX
+ SG_ LKAS_Request : 3|12@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_1 : 29|1@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_5 : 33|1@1+ (1,0) [0|7] "" XXX
  SG_ Counter : 7|4@0+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_3 : 23|1@0+ (1,0) [0|3] "" XXX
- SG_ Persistent_1 : 29|1@0+ (1,0) [0|65535] "" XXX
- SG_ Persistent_2 : 33|1@1+ (1,0) [0|7] "" XXX
 
 BO_ 580 CAM__IDK: 8 XXX
  SG_ NEW_SIGNAL_1 : 55|16@0+ (1,0) [0|255] "" XXX
@@ -147,10 +146,9 @@ BO_ 1160 CAM__Empty3: 8 XXX
 
 BO_ 1088 CAM__STATUS2: 8 XXX
  SG_ NEW_SIGNAL_2 : 0|2@1+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_3 : 8|2@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_3 : 8|3@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_1 : 6|1@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_4 : 57|2@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_5 : 62|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_7 : 54|1@0+ (1,0) [0|31] "" XXX
  SG_ NEW_SIGNAL_6 : 13|1@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_8 : 10|1@1+ (1,0) [0|3] "" XXX
