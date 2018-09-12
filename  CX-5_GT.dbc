@@ -107,10 +107,10 @@ BO_ 579 CAM_LKAS: 8 XXX
  SG_ 8 : 19|1@1+ (1,0) [0|8589934591] "" XXX
  SG_ 128 : 23|1@0+ (1,0) [0|3] "" XXX
  SG_ Checksum : 56|8@1+ (1,0) [0|15] "" XXX
- SG_ LKAS_Request : 3|12@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_1 : 29|1@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_5 : 33|1@1+ (1,0) [0|7] "" XXX
  SG_ Counter : 7|4@0+ (1,0) [0|3] "" XXX
+ SG_ LKAS_Request : 3|12@0+ (1,-2048) [0|15] "" XXX
 
 BO_ 580 CAM__IDK: 8 XXX
  SG_ NEW_SIGNAL_1 : 55|16@0+ (1,0) [0|255] "" XXX
