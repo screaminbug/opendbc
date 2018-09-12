@@ -61,7 +61,6 @@ BO_ 533 WHEEL_SPEED: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|16383] "" XXX
  SG_ NEW_SIGNAL_2 : 23|16@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_4 : 39|16@0+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_5 : 39|1@0+ (1,0) [0|1] "" XXX
  SG_ NEW_SIGNAL_3 : 55|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 134 Steering_Angle: 8 XXX
@@ -146,9 +145,10 @@ BO_ 1160 CAM__Empty3: 8 XXX
 
 BO_ 1088 CAM__STATUS2: 8 XXX
  SG_ NEW_SIGNAL_2 : 0|2@1+ (1,0) [0|3] "" XXX
- SG_ NEW_SIGNAL_3 : 8|3@1+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_3 : 8|2@1+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_1 : 6|1@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_4 : 57|2@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_5 : 62|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_7 : 54|1@0+ (1,0) [0|31] "" XXX
  SG_ NEW_SIGNAL_6 : 13|1@0+ (1,0) [0|15] "" XXX
+ SG_ NEW_SIGNAL_8 : 10|1@1+ (1,0) [0|3] "" XXX
