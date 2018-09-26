@@ -63,20 +63,20 @@ BO_ 357 PEDALS: 8 XXX
  SG_ NEW_SIGNAL_3 : 16|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_4 : 30|1@0+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_6 : 28|1@0+ (1,0) [0|1] "" XXX
- SG_ GEAR : 48|4@1+ (1,0) [0|255] "" XXX
+ SG_ GEAR : 48|5@1+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 63|8@0+ (1,0) [0|15] "" XXX
  SG_ BREAK_CRZ_MAYBE : 2|1@1+ (1,0) [0|15] "" XXX
  SG_ GAZ_CRZ_MAYBE : 3|1@0+ (1,0) [0|1] "" XXX
  SG_ BREAK_PEDAL_1 : 4|1@0+ (1,0) [0|1] "" XXX
  SG_ NO_BREAK_1 : 6|1@0+ (1,0) [0|7] "" XXX
  SG_ NO_BREAK_2 : 15|1@0+ (1,0) [0|7] "" XXX
+ SG_ NEW_SIGNAL_7 : 8|3@1+ (1,0) [0|7] "" XXX
 
 BO_ 533 WHEEL_SPEED: 8 XXX
- SG_ NEW_SIGNAL_5 : 39|1@0+ (1,0) [0|1] "" XXX
- SG_ WHEEL2 : 23|16@0+ (1,0) [0|65535] "" XXX
- SG_ WHEEL3 : 39|16@0+ (1,0) [0|15] "" XXX
- SG_ WHEEL4 : 55|16@0+ (1,0) [0|65535] "" XXX
- SG_ WHEEL1 : 7|16@0+ (1,0) [0|16383] "" XXX
+ SG_ RL : 39|16@0+ (1,0) [0|15] "" XXX
+ SG_ FR : 23|16@0+ (1,0) [0|65535] "" XXX
+ SG_ FL : 7|16@0+ (1,0) [0|16383] "" XXX
+ SG_ RR : 55|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 134 STEERING_SENSORS: 8 XXX
  SG_ NEW_SIGNAL_3 : 26|19@0+ (1,0) [0|15] "" XXX
