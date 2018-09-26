@@ -72,7 +72,7 @@ BO_ 357 PEDALS: 8 XXX
  SG_ NO_BREAK_2 : 15|1@0+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_7 : 8|3@1+ (1,0) [0|7] "" XXX
 
-BO_ 533 WHEEL_SPEED: 8 XXX
+BO_ 533 WHEEL_SPEEDS: 8 XXX
  SG_ RL : 39|16@0+ (1,0) [0|15] "" XXX
  SG_ FR : 23|16@0+ (1,0) [0|65535] "" XXX
  SG_ FL : 7|16@0+ (1,0) [0|16383] "" XXX
@@ -85,10 +85,11 @@ BO_ 134 STEERING_SENSORS: 8 XXX
  SG_ NEW_SIGNAL_2 : 48|6@1+ (1,0) [0|7] "" XXX
  SG_ NEW_SIGNAL_1 : 63|8@0+ (1,0) [0|255] "" XXX
 
-BO_ 576 STEERING_TORQUE: 8 XXX
+BO_ 576 Steering_Torque: 8 XXX
  SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|127] "" XXX
  SG_ NEW_SIGNAL_1 : 46|23@0- (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_3 : 0|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_4 : 47|1@0+ (1,0) [0|3] "" XXX
+ SG_ Steer_Torque_Sensor : 0|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 577 STEERING_TORQUE2: 8 XXX
  SG_ NEW_SIGNAL_1 : 23|16@0+ (1,0) [0|1] "" XXX
@@ -461,7 +462,7 @@ BO_ 535 CURVE_CTRS: 8 XXX
  SG_ NEW_SIGNAL_7 : 24|1@0+ (1,0) [0|1] "" XXX
  SG_ NEW_SIGNAL_8 : 25|1@0+ (1,0) [0|1] "" XXX
 
-BO_ 540 CRZ_STATE: 8 XXX
+BO_ 540 CruiseControl: 8 XXX
  SG_ NEW_SIGNAL_1 : 0|1@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 1|1@0+ (1,0) [0|1] "" XXX
  SG_ NEW_SIGNAL_4 : 8|1@0+ (1,0) [0|255] "" XXX
@@ -472,7 +473,7 @@ BO_ 540 CRZ_STATE: 8 XXX
  SG_ NEW_SIGNAL_9 : 31|1@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_10 : 30|1@0+ (1,0) [0|1] "" XXX
  SG_ NEW_SIGNAL_11 : 29|1@0+ (1,0) [0|1] "" XXX
- SG_ ACC_ACTIVE : 3|1@0+ (1,0) [0|1] "" XXX
+ SG_ Cruise_Activated : 3|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 539 CRZ_INFO: 8 XXX
  SG_ NEW_SIGNAL_1 : 17|1@0+ (1,0) [0|255] "" XXX
