@@ -118,6 +118,7 @@ BO_ 324 CruiseControl_2015: 8 XXX
  SG_ NEW_SIGNAL_2 : 8|1@0+ (1,0) [0|255] "" XXX
  SG_ Cruise_Activated : 49|1@0+ (1,0) [0|7] "" XXX
  SG_ Brake_Pedal_On : 51|1@0+ (1,0) [0|3] "" XXX
+ SG_ Button : 13|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 328 Transmission: 8 XXX
  SG_ Counter : 11|4@0+ (1,0) [0|255] "" XXX
@@ -129,6 +130,7 @@ BO_ 328 Transmission: 8 XXX
  SG_ NEW_SIGNAL_5 : 43|1@0+ (1,0) [0|65535] "" XXX
  SG_ Gear : 48|4@1+ (1,0) [0|15] "" XXX
  SG_ Gear_2 : 52|4@1+ (1,0) [0|15] "" XXX
+ SG_ Manual_Gear : 4|4@1+ (1,0) [0|255] "" XXX
 
 BO_ 329 CVT_Ratio: 8 XXX
  SG_ NEW_SIGNAL_2 : 31|8@0+ (1,0) [0|255] "" XXX
@@ -264,11 +266,11 @@ BO_ 880 Steer_Torque_2: 8 XXX
  SG_ Counter : 40|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_3 : 48|4@1- (1,0) [0|15] "" XXX
  SG_ Steering_Voltage_Flat : 7|8@0+ (1,0) [0|255] "" XXX
- SG_ Steer_Torque_Sensor : 39|8@0- (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 8|1@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 30|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_4_2017 : 52|1@0+ (1,0) [0|3] "" XXX
  SG_ NEW_SIGNAL_5_2017 : 54|1@0+ (1,0) [0|3] "" XXX
+ SG_ Steer_Torque_Sensor : 32|8@1- (-1,0) [0|255] "" XXX
 
 BO_ 881 Steering_Torque: 8 XXX
  SG_ Steering_Motor_Flat : 0|8@1+ (1,0) [0|255] "" XXX
