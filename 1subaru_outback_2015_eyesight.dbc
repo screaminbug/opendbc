@@ -107,7 +107,6 @@ BO_ 321 undefined: 8 XXX
  SG_ Engine_Stop : 15|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 324 CruiseControl_2015: 8 XXX
- SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ Cruise_On : 48|1@0+ (1,0) [0|3] "" XXX
  SG_ OnOffButton : 2|1@1+ (1,0) [0|3] "" XXX
  SG_ SET_BUTTON : 3|1@0+ (1,0) [0|3] "" XXX
@@ -119,6 +118,7 @@ BO_ 324 CruiseControl_2015: 8 XXX
  SG_ Cruise_Activated : 49|1@0+ (1,0) [0|7] "" XXX
  SG_ Brake_Pedal_On : 51|1@0+ (1,0) [0|3] "" XXX
  SG_ Button : 13|1@0+ (1,0) [0|3] "" XXX
+ SG_ NEW_SIGNAL_1 : 23|8@0+ (1,-124) [0|255] "" XXX
 
 BO_ 328 Transmission: 8 XXX
  SG_ Counter : 11|4@0+ (1,0) [0|255] "" XXX
