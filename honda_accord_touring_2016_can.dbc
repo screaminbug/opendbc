@@ -388,17 +388,18 @@ BO_ 1633 XXX_38: 8 XXX
  SG_ COUNTER : 61|2@0+ (1,0) [0|3] "" XXX
  SG_ CHECKSUM : 59|4@0+ (1,0) [0|15] "" XXX
 
-BO_ 512 NEW_MSG_1: 8 XXX
+BO_ 512 LKAS_SERIAL: 8 XXX
  SG_ big_steer : 3|4@0- (1,0) [0|3] "" XXX
  SG_ big_steer_2 : 35|4@0- (1,0) [0|31] "" XXX
  SG_ flat_little_steer : 8|5@1+ (-1,0) [0|255] "" XXX
  SG_ lkas_off : 22|1@0+ (1,0) [0|255] "" XXX
- SG_ little_steer : 24|7@1+ (1,0) [0|2047] "" XXX
  SG_ lkas_off_2 : 54|1@1+ (1,0) [0|255] "" XXX
  SG_ flat_little_steer_2 : 40|5@1+ (-1,0) [0|255] "" XXX
  SG_ lkas_on : 13|1@0+ (1,0) [0|3] "" XXX
  SG_ lkas_on_2 : 45|1@0+ (1,0) [0|7] "" XXX
- SG_ little_steer_2 : 62|7@0+ (1,-32) [0|127] "" XXX
+ SG_ first_byte : 5|1@0+ (1,0) [0|3] "" XXX
+ SG_ little_steer_2 : 62|7@0+ (1,0) [0|127] "" XXX
+ SG_ little_steer : 24|7@1+ (1,32) [0|2047] "" XXX
 
 BO_TX_BU_ 506 : NEO,ADAS;
 BO_TX_BU_ 780 : NEO,ADAS;
