@@ -165,7 +165,6 @@ BO_ 352 ES_Brake: 8 XXX
  SG_ Brake_Light : 20|1@0+ (1,0) [0|2047] "" XXX
  SG_ Cruise_Activated : 23|1@0+ (1,0) [0|3] "" XXX
  SG_ Brake_Pressure : 0|16@1+ (1,0) [0|255] "" XXX
- SG_ Message : 0|64@1+ (1,0) [0|15] "" XXX
 
 BO_ 353 ES_CruiseThrottle: 8 XXX
  SG_ Throttle_Cruise : 0|12@1+ (1,0) [0|255] "" XXX
@@ -274,9 +273,9 @@ BO_ 880 Steer_Torque_2: 8 XXX
 
 BO_ 881 Steering_Torque: 8 XXX
  SG_ Steering_Motor_Flat : 0|8@1+ (1,0) [0|255] "" XXX
- SG_ Steering_Motor_LeftRight : 23|16@0- (-0.13,0) [0|255] "" XXX
  SG_ Steer_Torque_Sensor : 39|8@0- (1,0) [0|255] "" XXX
  SG_ Steering_Angle : 40|16@1- (-0.026,0) [0|255] "" XXX
+ SG_ Steering_Motor_LeftRight : 23|16@0- (-0.13,0) [0|255] "" XXX
 
 BO_ 882 Counter: 8 XXX
  SG_ Counter : 15|4@0+ (1,0) [0|31] "" XXX
