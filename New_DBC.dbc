@@ -47,14 +47,20 @@ BO_ 290 NEW_MSG_4: 8 XXX
  SG_ Gas : 15|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 440 NEW_MSG_5: 8 XXX
- SG_ Speed : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ wheel_rear_right : 23|16@0+ (1,0) [0|511] "" XXX
+ SG_ wheel_spd_front_left : 55|16@0+ (1,0) [0|65535] "" XXX
+ SG_ wheel_spd_rear_left : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ wheel_spd_front_right : 39|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 319 NEW_MSG_6: 8 XXX
  SG_ NEW_SIGNAL_1 : 15|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 495 NEW_MSG_7: 8 XXX
  SG_ steer_torque : 15|31@0+ (1,0) [0|65535] "" XXX
- SG_ NEW_SIGNAL_1 : 48|8@1+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 47|24@0+ (1,0) [0|255] "" XXX
 
 BO_ 672 NEW_MSG_8: 8 XXX
  SG_ NEW_SIGNAL_1 : 3|12@0+ (1,0) [0|255] "" XXX
+
+BO_ 788 NEW_MSG_9: 8 XXX
+ SG_ speed : 15|16@0+ (1,0) [0|65535] "" XXX
