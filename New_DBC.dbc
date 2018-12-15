@@ -55,7 +55,7 @@ BO_ 440 NEW_MSG_5: 8 XXX
 BO_ 319 NEW_MSG_6: 8 XXX
  SG_ NEW_SIGNAL_1 : 15|16@0+ (1,0) [0|65535] "" XXX
 
-BO_ 495 NEW_MSG_7: 8 XXX
+BO_ 495 Steering: 8 XXX
  SG_ steer_torque : 15|31@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_1 : 47|24@0+ (1,0) [0|255] "" XXX
 
@@ -63,4 +63,10 @@ BO_ 672 NEW_MSG_8: 8 XXX
  SG_ NEW_SIGNAL_1 : 3|12@0+ (1,0) [0|255] "" XXX
 
 BO_ 788 NEW_MSG_9: 8 XXX
+ SG_ NEW_SIGNAL_1 : 31|16@0+ (1,0) [0|65535] "" XXX
  SG_ speed : 15|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_2 : 47|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 953 NEW_MSG_10: 8 XXX
+ SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
