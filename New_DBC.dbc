@@ -53,7 +53,7 @@ BO_ 440 NEW_MSG_5: 8 XXX
  SG_ wheel_spd_front_right : 39|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 319 NEW_MSG_6: 8 XXX
- SG_ NEW_SIGNAL_1 : 15|16@0+ (1,0) [0|65535] "" XXX
+ SG_ rpm : 15|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 495 Steering: 8 XXX
  SG_ steer_torque : 15|31@0+ (1,0) [0|65535] "" XXX
@@ -70,3 +70,9 @@ BO_ 788 NEW_MSG_9: 8 XXX
 BO_ 953 NEW_MSG_10: 8 XXX
  SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 431 NEW_MSG_7: 8 XXX
+
+BO_ 976 LIGHTS: 8 XXX
+ SG_ BLINKER_LEFT : 38|1@0+ (1,0) [0|1] "" XXX
+ SG_ BLINKER_RIGHT : 39|1@0+ (1,0) [0|1] "" XXX
