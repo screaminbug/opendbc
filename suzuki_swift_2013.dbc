@@ -58,7 +58,7 @@ BO_ 440 NEW_MSG_5: 8 XXX
  SG_ wheel_spd_front_right : 39|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 319 ENGINE_RPM: 8 XXX
- SG_ rpm : 13|14@0+ (0.28,0) [0|6000] "/min" XXX
+ SG_ rpm : 13|14@0+ (0.23,0) [0|6000] "/min" XXX
 
 BO_ 495 STEER_NOISY: 8 XXX
  SG_ STEER_NOISY_1 : 15|16@0+ (1,0) [0|65535] "" XXX
@@ -105,3 +105,6 @@ BO_ 784 NEW_MSG_15: 8 XXX
 BO_ 1280 NEW_MSG_16: 8 XXX
 
 BO_ 1281 NEW_MSG_17: 8 XXX
+
+BO_ 1000 NEW_MSG_6: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
