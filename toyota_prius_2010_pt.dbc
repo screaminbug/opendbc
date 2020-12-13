@@ -98,7 +98,7 @@ BO_ 614 STEERING_IPAS: 8 IPAS
  SG_ STATE : 7|4@0+ (1,0) [0|15] "" XXX
  SG_ ANGLE : 3|12@0- (1,0) [0|16777215] "" XXX
  SG_ SET_ME_X10 : 23|8@0+ (1,0) [0|255] "" XXX
- SG_ SET_ME_X00 : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ SET_ME_X00_1 : 55|8@0+ (1,0) [0|255] "" XXX
  SG_ DIRECTION_CMD : 38|2@0+ (1,0) [0|3] "" XXX
  SG_ CHECKSUM : 63|8@0+ (1,0) [0|255] "" XXX
 
@@ -169,6 +169,7 @@ BO_ 452 POWERTRAIN: 8 XXX
 
 
 
+CM_ "CHFFR_METRIC 37 STEER_ANGLE STEER_ANGLE 0.36 180";
 CM_ SG_ 36 ACCEL_Y "unit is tbd";
 CM_ SG_ 36 STEERING_TORQUE "does not seem the steer torque, tbd";
 CM_ SG_ 36 YAW_RATE "verify";
@@ -183,7 +184,7 @@ CM_ SG_ 614 ANGLE "set to measured angle when ipas control isn't active";
 CM_ SG_ 37 STEER_FRACTION "1/15th of the signal STEER_ANGLE, which is 1.5 deg; note that 0x8 is never set";
 CM_ SG_ 37 STEER_RATE "factor is tbd";
 CM_ SG_ 467 LOW_SPEED_LOCKOUT "in low speed lockout, system would always disengage below 28mph";
-CM_ SG_ 467 SET_SPEED "43 kph are shown as 28mph, so conversion isnt perfect";
+CM_ SG_ 467 SET_SPEED "43 kph are shown as 28mph, so conversion isn't perfect";
 CM_ SG_ 921 UI_SET_SPEED "set speed shown in UI with user set unit";
 CM_ SG_ 1042 SET_ME_1 "unclear what this is, nut it's always 1 in drive traces";
 VAL_ 295 GEAR 0 "P" 1 "R" 2 "N" 3 "D" 4 "B" ;
@@ -200,4 +201,3 @@ VAL_ 1042 RIGHT_LINE 3 "orange" 2 "double" 1 "solid" 0 "none" ;
 VAL_ 1042 LEFT_LINE 3 "orange" 2 "double" 1 "solid" 0 "none" ;
 VAL_ 1042 LDA_ALERT 3 "hold with continuous beep" 2 "LDA unavailable" 1 "hold" 0 "none" ;
 VAL_ 1553 UNITS 1 "km" 2 "miles" ;
-CM_ "CHFFR_METRIC 37 STEER_ANGLE STEER_ANGLE 0.36 180";
